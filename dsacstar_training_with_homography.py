@@ -11,6 +11,7 @@ from network import Network
 from homography_loss_function import datasets
 from utils import tr, reverse_tr
 import pickle
+from torch.utils.tensorboard import SummaryWriter
 
 parser = argparse.ArgumentParser(
     description='Train a network on a specific scene',
@@ -55,7 +56,7 @@ parser.add_argument('--tiny', '-tiny', action='store_true',
 parser.add_argument('--print_every', type=int, default=100, 
 	help='print loss every this number of images')
 
-parser.add_argument('--save_every', type=int, default=10, 
+parser.add_argument('--save_every', type=int, default=2, 
 	help='save model every this number of epochs')
 
 
@@ -88,20 +89,32 @@ network.train()
 optimizer = torch.optim.Adam(network.parameters(),lr=opt.learningrate)
 iteration = opt.iterations
 
-def train(network = network, optimizer=optimizer, criterion=criterion, iteration=iteration, with_init=with_init):
-    if with_init:
-        checkpoint_folder = f'our_checkpoints/{opt.dataset_name}/{opt.scene_name}_with_init'
-        os.mkdir(checkpoint_folder)
-    else:
-        checkpoint_folder = f'our_checkpoints/{opt.dataset_name}/{opt.scene_name}_without_init'
-        if os.path.isdir(checkpoint_folder):
-            checkpoint_folder = checkpoint_folder+'_1'
-        
-        os.mkdir(checkpoint_folder)
+
+if with_init:
+    writer_folder = 'with_init'
+    checkpoint_folder = f'our_checkpoints/{opt.dataset_name}/{opt.scene_name}_with_init'
+    os.makedirs(checkpoint_folder, exist_ok=True)
+
+else:
+    checkpoint_folder = f"our_checkpoints/{'7-Scenes'}/{'fire'}_without_init"
+    if os.path.isdir(checkpoint_folder):
+        checkpoint_folder = checkpoint_folder+'_1'
+
+    os.makedirs(checkpoint_folder, exist_ok=True)
+
+    writer_folder = 'without_init'
     
-    loss_list = []
-    per_epoch_loss_list = []
+    
+writer = SummaryWriter(os.path.join('logs',os.path.basename(os.path.normpath('7-Scenes')),'fire',writer_folder))
+
+
+    
+
+def train(network = network,trainset_loader=trainset_loader,testset_laoder=testset_loader,optimizer=optimizer, iteration=iteration, with_init=with_init, writer=writer,checkpoint_folder=checkpoint_folder):
+    
     for epoch in range(iteration):
+        
+        network.train()
         print(f'epoch:{epoch}\n')
         running_loss = 0
         it = 0
@@ -120,11 +133,8 @@ def train(network = network, optimizer=optimizer, criterion=criterion, iteration
             scene_coordinates = network(image)
             scene_coordinates_gradients = torch.zeros(scene_coordinates.size())
             gt_pose = reverse_tr(crw, wtc)[0]
-            # print(f"shape pose={gt_pose.shape}")
-            # print(f"xmin = {data['xmin']} shape {data['xmin'].shape}")
-            # print(f"xmax = {data['xmax']} shape {data['xmax'].shape}")
-
-            # pose from RGB
+            
+            # calculate loss
             loss = dsacstar.backward_rgb(
                 scene_coordinates.cpu(),
                 scene_coordinates_gradients,
@@ -147,14 +157,14 @@ def train(network = network, optimizer=optimizer, criterion=criterion, iteration
     
             
             running_loss += loss
-            print(f"Done 1 batch scene coor grads {scene_coordinates_gradients}, loss = {loss}")
             torch.autograd.backward((scene_coordinates),(scene_coordinates_gradients.cuda()))
             optimizer.step()
+            
             if it%opt.print_every==0 and it!=0:
-                loss_list.append(running_loss/it)
-                print(f'it={it}')
+                writer.add_scalar('train loss',running_loss/it)
+                print(f'it={it} train_loss={running_loss/it}')
         
-        per_epoch_loss_list.append(running_loss)
+        writer.add_scalar('per_epoch_training_loss',running_loss/len(trainset_loader),epoch)
 
         if epoch%opt.save_every==0:
             checkpoint_path = os.path.join(checkpoint_folder,f'check_point_epoch_{epoch}.pt')
@@ -167,10 +177,8 @@ def train(network = network, optimizer=optimizer, criterion=criterion, iteration
                 }, checkpoint_path
             )
        
-        print(f"loss: {running_loss}")
-    
-    with open(os.path.join(checkpoint_folder,'loss_list.pickle'),'wb') as f:
-        pickle.dump({'loss_list':loss_list,'per_epoch_loss_list':per_epoch_loss_list}, f)
+        print(f"after {epoch} epoch train loss: {running_loss}")
+        
 
     
 
