@@ -4,9 +4,9 @@
 #SBATCH --job-name=ARRahman_dsac_run_with_homography_with
 #SBATCH --partition=mundus
 #SBATCH --gres=gpu:1
-#SBATCH --output=train_with_homography_chess_with.out
-#SBATCH --error=train_with_homography_chess_with.err
+#SBATCH --output=test.out
+#SBATCH --error=test.err
 
 
-cd ~/projects/dsacstar/ 
-python dsacstar_training_with_homography.py 7-Scenes chess --network_in our_init.net
+cd ~/git/Homography_based_loss_project 
+python dsacstar_training_with_homography.py 7-Scenes fire --iterations 10

@@ -4,11 +4,11 @@ import torch.optim as optim
 import argparse
 import time
 import random
-import dsacstar_with_homography
+import dsacstar
 import os
 
 from network import Network
-from homography_loss_function import datasets
+import datasets
 from utils import tr, reverse_tr
 import pickle
 from torch.utils.tensorboard import SummaryWriter
@@ -62,10 +62,56 @@ parser.add_argument('--save_every', type=int, default=2,
 
 opt = parser.parse_args()
 
+def compute_ABC(w_t_c, c_R_w, w_t_chat, chat_R_w, c_n, eye):
+    """
+    Computes A, B, and C matrix given estimated and ground truth poses
+    and normal vector n.
+    `w_t_c` and `w_t_chat` must have shape (batch_size, 3, 1).
+    `c_R_w` and `chat_R_w` must have shape (batch_size, 3, 3).
+    `n` must have shape (3, 1).
+    `eye` is the (3, 3) identity matrix on the proper device.
+    """
+    chat_t_c = chat_R_w @ (w_t_c - w_t_chat)
+#     print(f"in abc chatRW={chat_R_w.shape} and transpose={c_R_w.transpose(1,2).shape}")
+    chat_R_c = chat_R_w @ c_R_w.transpose(1, 2)
+
+    A = eye - chat_R_c
+    C = c_n @ chat_t_c.transpose(1, 2)
+    B = C @ A
+    A = A @ A.transpose(1, 2)
+    B = B + B.transpose(1, 2)
+    C = C @ C.transpose(1, 2)
+
+    return A, B, C
+
+
+class LocalHomographyLoss(torch.nn.Module):
+    def __init__(self, device='cpu'):
+        super().__init__()
+
+        # `c_n` is the normal vector of the plane inducing the homographies in the ground-truth camera frame
+        self.c_n = torch.tensor([0, 0, -1], dtype=torch.float32, device=device).view(3, 1)
+
+        # `eye` is the (3, 3) identity matrix
+        self.eye = torch.eye(3, device=device)
+
+    def __call__(self, batch):
+        A, B, C = compute_ABC(batch['w_t_c'], batch['c_R_w'], batch['w_t_chat'], batch['chat_R_w'], self.c_n, self.eye)
+
+        xmin = batch['xmin'].view(-1, 1, 1)
+        xmax = batch['xmax'].view(-1, 1, 1)
+        B_weight = torch.log(xmax / xmin) / (xmax - xmin)
+        C_weight = xmin * xmax
+
+        error = A + B * B_weight + C / C_weight
+        error = error.diagonal(dim1=1, dim2=2).sum(dim=1).mean()
+        return error
+
+
 if opt.dataset_name=='Cambridge':
     dataset = datasets.CambridgeDataset(f'homography_loss_function/datasets/Cambrige/{opt.scene_name}',opt.xmin_percentile, opt.xmax_percentile)
 else:
-    dataset = datasets.SevenScenesDataset(f'homography_loss_function/datasets/7-Scenes/{opt.scene_name}', opt.xmin_percentile, opt.xmax_percentile)
+    dataset = datasets.SevenScenesDataset(f'/mundus/mrahman527/projects/homography-loss-function/datasets/7-Scenes/{opt.scene_name}', opt.xmin_percentile, opt.xmax_percentile)
 
 
 
@@ -120,6 +166,7 @@ def train(network = network,trainset_loader=trainset_loader,testset_laoder=tests
         it = 0
         for data in trainset_loader:
             it+=1
+            continue
             with torch.no_grad():
                 optimizer.zero_grad()
 
@@ -179,6 +226,52 @@ def train(network = network,trainset_loader=trainset_loader,testset_laoder=tests
        
         print(f"after {epoch} epoch train loss: {running_loss}")
         
+        criterion = LocalHomographyLoss()
+        #test
+        network.eval()
+        it = 0
+        running_test_loss = 0        
+        with torch.no_grad():
+            for data in testset_loader:
+                it+=1
+                focal_length = data['K'][0][0][0]
+                file = data['image_file']
+                image = data['image'].cuda()
+                wtc, crw = data['w_t_c'], data['c_R_w']
+
+                # predict scene coordinates and neural guidance
+                scene_coordinates = network(image)
+                gt_pose = reverse_tr(crw, wtc)[0]
+                out_pose = torch.zeros((4,4))
+                print('here')
+                dsacstar.forward_rgb(
+                    scene_coordinates,
+                    out_pose,
+                    64,
+                    10,
+                    focal_length,
+                    float(image.size(3)/2),
+                    float(image.size(2)/2),
+                    100,
+                    100,
+                    network.OUTPUT_SUBSAMPLE
+                )
+                print('here 2')
+                
+                batch={}
+                batch['w_t_c'] = data['w_t_c']
+                batch['c_R_w'] = data['c_R_w']
+                
+                batch['w_t_chat'],batch['chat_R_w'] = tr(out_pose)
+                batch['w_t_chat'] = batch['w_t_chat'].unsqueeze(0)
+                batch['chat_R_w'] = batch['chat_R_w'].unsqueeze(0)
+                batch['xmin'] = data['xmin']
+                batch['xmax'] = data['xmax']
+                
+                print('here 3')
+                loss = criterion(batch)
+                running_test_loss+=loss.item()
+                print(f"running test loss {running_test_loss}")
 
     
 
