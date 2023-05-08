@@ -1,12 +1,12 @@
 #!/bin/bash
 
-#SBATCH --time=3-0
-#SBATCH --job-name=ARRahman_dsac_run_with_homography_with
+#SBATCH --time=7-0
+#SBATCH --job-name=ARRahman_dsac_run_with_homography_without
 #SBATCH --partition=mundus
 #SBATCH --gres=gpu:1
-#SBATCH --output=test.out
-#SBATCH --error=test.err
+#SBATCH --output=final_without.out
+#SBATCH --error=final_without.err
 
 
 cd ~/git/Homography_based_loss_project 
-python dsacstar_training_with_homography.py 7-Scenes fire --iterations 10
+python dsacstar_training_with_homography.py 7-Scenes fire --iterations 10000

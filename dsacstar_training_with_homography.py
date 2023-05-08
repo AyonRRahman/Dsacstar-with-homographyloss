@@ -245,15 +245,15 @@ def train(network = network,trainset_loader=trainset_loader,testset_laoder=tests
                 out_pose = torch.zeros((4,4))
                 print('here')
                 dsacstar.forward_rgb(
-                    scene_coordinates,
+                    scene_coordinates.cpu(),
                     out_pose,
-                    64,
-                    10,
+                    opt.hypotheses,
+                    opt.threshold,
                     focal_length,
                     float(image.size(3)/2),
                     float(image.size(2)/2),
-                    100,
-                    100,
+                    opt.inlieralpha,
+                    opt.maxpixelerror,
                     network.OUTPUT_SUBSAMPLE
                 )
                 print('here 2')
@@ -275,5 +275,5 @@ def train(network = network,trainset_loader=trainset_loader,testset_laoder=tests
 
     
 
-train(network = network, optimizer=optimizer, criterion=criterion, iteration=iteration)
+train(network = network, optimizer=optimizer,iteration=iteration)
 
