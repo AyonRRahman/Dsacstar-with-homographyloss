@@ -1,4 +1,4 @@
-name: dsacstar_with_homographyloss
+name: dsacstar_with_homography
 channels:
   - pytorch
   - anaconda
@@ -210,5 +210,21 @@ dependencies:
   - zlib=1.2.13=h5eee18b_0
   - zstd=1.4.4=h0b5b093_3
   - pip:
+      - absl-py==1.4.0
+      - cachetools==5.3.0
+      - google-auth==2.17.3
+      - google-auth-oauthlib==0.4.6
+      - grpcio==1.54.0
+      - markdown==3.4.3
+      - oauthlib==3.2.2
+      - protobuf==3.20.3
+      - pyasn1==0.5.0
+      - pyasn1-modules==0.3.0
+      - requests-oauthlib==1.3.1
+      - rsa==4.9
+      - tensorboard==2.11.2
+      - tensorboard-data-server==0.6.1
+      - tensorboard-plugin-wit==1.8.1
       - torchsummary==1.5.1
+      - werkzeug==2.2.3
 prefix: /mundus/mrahman527/miniconda3/envs/dsacstar
