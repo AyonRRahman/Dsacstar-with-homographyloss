@@ -93,7 +93,7 @@ void dsacstar_rgb_forward(
 	cv::Mat_<cv::Point2i> sampling = 
 		dsacstar::createSampling(imW, imH, subSampling, 0, 0);
 
-	std::cout << BLUETEXT("Sampling " << ransacHypotheses << " hypotheses.") << std::endl;
+	// std::cout << BLUETEXT("Sampling " << ransacHypotheses << " hypotheses.") << std::endl;
 	StopWatch stopW;
 
 	// sample RANSAC hypotheses
@@ -115,8 +115,8 @@ void dsacstar_rgb_forward(
 		imgPts,
 		objPts);
 
-	std::cout << "Done in " << stopW.stop() / 1000 << "s." << std::endl;	
-	std::cout << BLUETEXT("Calculating scores.") << std::endl;
+	// std::cout << "Done in " << stopW.stop() / 1000 << "s." << std::endl;	
+	// std::cout << BLUETEXT("Calculating scores.") << std::endl;
     
 	// compute reprojection error images
 	std::vector<cv::Mat_<float>> reproErrs(ransacHypotheses);
@@ -138,20 +138,20 @@ void dsacstar_rgb_forward(
     	inlierThreshold,
     	inlierAlpha);
 
-	std::cout << "Done in " << stopW.stop() / 1000 << "s." << std::endl;
-	std::cout << BLUETEXT("Drawing final hypothesis.") << std::endl;	
+	// std::cout << "Done in " << stopW.stop() / 1000 << "s." << std::endl;
+	// std::cout << BLUETEXT("Drawing final hypothesis.") << std::endl;	
 
 	// apply soft max to scores to get a distribution
 	std::vector<double> hypProbs = dsacstar::softMax(scores);
 	double hypEntropy = dsacstar::entropy(hypProbs); // measure distribution entropy
 	int hypIdx = dsacstar::draw(hypProbs, false); // select winning hypothesis
 
-	std::cout << "Soft inlier count: " << scores[hypIdx] << " (Selection Probability: " << (int) (hypProbs[hypIdx]*100) << "%)" << std::endl; 
-	std::cout << "Entropy of hypothesis distribution: " << hypEntropy << std::endl;
+	// std::cout << "Soft inlier count: " << scores[hypIdx] << " (Selection Probability: " << (int) (hypProbs[hypIdx]*100) << "%)" << std::endl; 
+	// std::cout << "Entropy of hypothesis distribution: " << hypEntropy << std::endl;
 
 
-	std::cout << "Done in " << stopW.stop() / 1000 << "s." << std::endl;
-	std::cout << BLUETEXT("Refining winning pose:") << std::endl;
+	// std::cout << "Done in " << stopW.stop() / 1000 << "s." << std::endl;
+	// std::cout << BLUETEXT("Refining winning pose:") << std::endl;
 
 	// refine selected hypothesis
 	cv::Mat_<int> inlierMap;
@@ -167,7 +167,7 @@ void dsacstar_rgb_forward(
 		hypotheses[hypIdx],
 		inlierMap);
 
-	std::cout << "Done in " << stopW.stop() / 1000 << "s." << std::endl;
+	// std::cout << "Done in " << stopW.stop() / 1000 << "s." << std::endl;
 
 	// write result back to PyTorch
 	dsacstar::trans_t estTrans = dsacstar::pose2trans(hypotheses[hypIdx]);
@@ -250,7 +250,7 @@ double dsacstar_rgb_backward(
 		dsacstar::createSampling(imW, imH, subSampling, 0, 0);
 
 	// sample RANSAC hypotheses
-	std::cout << BLUETEXT("Sampling " << ransacHypotheses << " hypotheses.") << std::endl;
+	// std::cout << BLUETEXT("Sampling " << ransacHypotheses << " hypotheses.") << std::endl;
 	StopWatch stopW;
 
 	std::vector<dsacstar::pose_t> initHyps;
@@ -270,8 +270,8 @@ double dsacstar_rgb_backward(
 		imgPts,
 		objPts);
 
-	std::cout << "Done in " << stopW.stop() / 1000 << "s." << std::endl;	
-    std::cout << BLUETEXT("Calculating scores.") << std::endl;
+	// std::cout << "Done in " << stopW.stop() / 1000 << "s." << std::endl;	
+    // std::cout << BLUETEXT("Calculating scores.") << std::endl;
 
 	// compute reprojection error images
 	std::vector<cv::Mat_<float>> reproErrs(ransacHypotheses);
@@ -297,10 +297,10 @@ double dsacstar_rgb_backward(
 	// apply soft max to scores to get a distribution
 	std::vector<double> hypProbs = dsacstar::softMax(scores);
 	double hypEntropy = dsacstar::entropy(hypProbs); // measure distribution entropy
-	std::cout << "Entropy: " << hypEntropy << std::endl;
+	// std::cout << "Entropy: " << hypEntropy << std::endl;
 
-	std::cout << "Done in " << stopW.stop() / 1000 << "s." << std::endl;
-	std::cout << BLUETEXT("Refining poses:") << std::endl;
+	// std::cout << "Done in " << stopW.stop() / 1000 << "s." << std::endl;
+	// std::cout << BLUETEXT("Refining poses:") << std::endl;
 
 	// collect inliers and refine poses
 	std::vector<dsacstar::pose_t> refHyps(ransacHypotheses);
@@ -326,7 +326,7 @@ double dsacstar_rgb_backward(
 			inlierMaps[h]);
 	}
 
-	std::cout << "Done in " << stopW.stop() / 1000 << "s." << std::endl;
+	// std::cout << "Done in " << stopW.stop() / 1000 << "s." << std::endl;
 	
 	// calculate expected pose loss
 	double expectedLoss = 0;
@@ -347,7 +347,7 @@ double dsacstar_rgb_backward(
 	cv::Mat_<double> dLoss_dObj = cv::Mat_<double>::zeros(sampling.rows * sampling.cols, 3);
 
     // --- path I, hypothesis path --------------------------------------------------------------------
-    std::cout << BLUETEXT("Calculating gradients wrt hypotheses.") << std::endl;
+    // std::cout << BLUETEXT("Calculating gradients wrt hypotheses.") << std::endl;
 
     // precalculate gradients per of hypotheis wrt object coordinates
     std::vector<cv::Mat_<double>> dHyp_dObjs(refHyps.size());
@@ -444,11 +444,11 @@ double dsacstar_rgb_backward(
 		gradients[h] = dLoss_dHyp * dHyp_dObjs[h];
     }
 
-	std::cout << "Done in " << stopW.stop() / 1000 << "s." << std::endl;
+	// std::cout << "Done in " << stopW.stop() / 1000 << "s." << std::endl;
     
     // --- path II, score path --------------------------------------------------------------------
 
-    std::cout << BLUETEXT("Calculating gradients wrt scores.") << std::endl;
+    // std::cout << BLUETEXT("Calculating gradients wrt scores.") << std::endl;
 
     std::vector<cv::Mat_<double>> dLoss_dScore_dObjs = dsacstar::dSMScore(
     	sceneCoordinates,
@@ -464,7 +464,7 @@ double dsacstar_rgb_backward(
     	inlierThreshold,
     	maxReproj);
 
-    std::cout << "Done in " << stopW.stop() / 1000 << "s." << std::endl;
+    // std::cout << "Done in " << stopW.stop() / 1000 << "s." << std::endl;
 
     // assemble full gradient tensor
     for(unsigned h = 0; h < refHyps.size(); h++)
@@ -533,10 +533,10 @@ void dsacstar_rgbd_forward(
 			validPts.push_back(cv::Point2i(x, y));
 	}
 
-	std::cout << "Valid points: " << validPts.size() << std::endl;
+	// std::cout << "Valid points: " << validPts.size() << std::endl;
  
 
-	std::cout << BLUETEXT("Sampling " << ransacHypotheses << " hypotheses.") << std::endl;
+	// std::cout << BLUETEXT("Sampling " << ransacHypotheses << " hypotheses.") << std::endl;
 	StopWatch stopW;
 	
 	// sample RANSAC hypotheses
@@ -557,8 +557,8 @@ void dsacstar_rgbd_forward(
 		eyePts,
 		objPts);
    
-	std::cout << "Done in " << stopW.stop() / 1000 << "s." << std::endl;	
-	std::cout << BLUETEXT("Calculating scores.") << std::endl;
+	// std::cout << "Done in " << stopW.stop() / 1000 << "s." << std::endl;	
+	// std::cout << BLUETEXT("Calculating scores.") << std::endl;
 
 	// compute distance error images
 	std::vector<cv::Mat_<float>> distErrs(ransacHypotheses);
@@ -578,20 +578,20 @@ void dsacstar_rgbd_forward(
     	inlierThreshold,
     	inlierAlpha);
 
-	std::cout << "Done in " << stopW.stop() / 1000 << "s." << std::endl;
-	std::cout << BLUETEXT("Drawing final hypothesis.") << std::endl;	
+	// std::cout << "Done in " << stopW.stop() / 1000 << "s." << std::endl;
+	// std::cout << BLUETEXT("Drawing final hypothesis.") << std::endl;	
 
 	// apply soft max to scores to get a distribution
 	std::vector<double> hypProbs = dsacstar::softMax(scores);
 	double hypEntropy = dsacstar::entropy(hypProbs); // measure distribution entropy
 	int hypIdx = dsacstar::draw(hypProbs, false); // select winning hypothesis
 
-	std::cout << "Soft inlier count: " << scores[hypIdx] << " (Selection Probability: " << (int) (hypProbs[hypIdx]*100) << "%)" << std::endl; 
-	std::cout << "Entropy of hypothesis distribution: " << hypEntropy << std::endl;
+	// std::cout << "Soft inlier count: " << scores[hypIdx] << " (Selection Probability: " << (int) (hypProbs[hypIdx]*100) << "%)" << std::endl; 
+	// std::cout << "Entropy of hypothesis distribution: " << hypEntropy << std::endl;
 
 
-	std::cout << "Done in " << stopW.stop() / 1000 << "s." << std::endl;
-	std::cout << BLUETEXT("Refining winning pose:") << std::endl;
+	// std::cout << "Done in " << stopW.stop() / 1000 << "s." << std::endl;
+	// std::cout << BLUETEXT("Refining winning pose:") << std::endl;
 	
 	// refine selected hypothesis
 	cv::Mat_<int> inlierMap;
@@ -607,7 +607,7 @@ void dsacstar_rgbd_forward(
 		hypotheses[hypIdx],
 		inlierMap);
 
-	std::cout << "Done in " << stopW.stop() / 1000 << "s." << std::endl;
+	// std::cout << "Done in " << stopW.stop() / 1000 << "s." << std::endl;
 	
 	// write result back to PyTorch
 	dsacstar::trans_t estTrans = dsacstar::pose2trans(hypotheses[hypIdx]);
@@ -687,10 +687,10 @@ double dsacstar_rgbd_backward(
 			validPts.push_back(cv::Point2i(x, y));
 	}
 
-	std::cout << "Valid points: " << validPts.size() << std::endl;
+	// std::cout << "Valid points: " << validPts.size() << std::endl;
  
 
-	std::cout << BLUETEXT("Sampling " << ransacHypotheses << " hypotheses.") << std::endl;
+	// std::cout << BLUETEXT("Sampling " << ransacHypotheses << " hypotheses.") << std::endl;
 	StopWatch stopW;
 	
 	// sample RANSAC hypotheses
@@ -711,8 +711,8 @@ double dsacstar_rgbd_backward(
 		eyePts,
 		objPts);
    
-	std::cout << "Done in " << stopW.stop() / 1000 << "s." << std::endl;
-	std::cout << BLUETEXT("Calculating scores.") << std::endl;
+	// std::cout << "Done in " << stopW.stop() / 1000 << "s." << std::endl;
+	// std::cout << BLUETEXT("Calculating scores.") << std::endl;
 
 	// compute distance error images
 	std::vector<cv::Mat_<float>> distErrs(ransacHypotheses);
@@ -735,10 +735,10 @@ double dsacstar_rgbd_backward(
 	// apply soft max to scores to get a distribution
 	std::vector<double> hypProbs = dsacstar::softMax(scores);
 	double hypEntropy = dsacstar::entropy(hypProbs); // measure distribution entropy
-	std::cout << "Entropy: " << hypEntropy << std::endl;
+	// std::cout << "Entropy: " << hypEntropy << std::endl;
 
-	std::cout << "Done in " << stopW.stop() / 1000 << "s." << std::endl;
-	std::cout << BLUETEXT("Refining poses:") << std::endl;
+	// std::cout << "Done in " << stopW.stop() / 1000 << "s." << std::endl;
+	// std::cout << BLUETEXT("Refining poses:") << std::endl;
 
 	// collect inliers and refine poses
 	std::vector<dsacstar::pose_t> refHyps(ransacHypotheses);
@@ -764,7 +764,7 @@ double dsacstar_rgbd_backward(
 			inlierMaps[h]);
 	}
 
-	std::cout << "Done in " << stopW.stop() / 1000 << "s." << std::endl;
+	// std::cout << "Done in " << stopW.stop() / 1000 << "s." << std::endl;
 
 	// calculate expected pose loss
 	double expectedLoss = 0;
@@ -785,7 +785,7 @@ double dsacstar_rgbd_backward(
 	cv::Mat_<double> dLoss_dObj = cv::Mat_<double>::zeros(imH * imW, 3);
 
     // --- path I, hypothesis path --------------------------------------------------------------------
-    std::cout << BLUETEXT("Calculating gradients wrt hypotheses.") << std::endl;
+    // std::cout << BLUETEXT("Calculating gradients wrt hypotheses.") << std::endl;
 
     // precalculate gradients per of hypotheis wrt object coordinates
     std::vector<cv::Mat_<double>> dHyp_dObjs(refHyps.size());
@@ -854,11 +854,11 @@ double dsacstar_rgbd_backward(
 		gradients[h] = dLoss_dHyp * dHyp_dObjs[h];
     }
 
-	std::cout << "Done in " << stopW.stop() / 1000 << "s." << std::endl;
+	// std::cout << "Done in " << stopW.stop() / 1000 << "s." << std::endl;
     
     // --- path II, score path --------------------------------------------------------------------
 
-    std::cout << BLUETEXT("Calculating gradients wrt scores.") << std::endl;
+    // std::cout << BLUETEXT("Calculating gradients wrt scores.") << std::endl;
 
     std::vector<cv::Mat_<double>> dLoss_dScore_dObjs = dsacstar::dSMScoreRGBD(
     	sceneCoordinates,
@@ -873,7 +873,7 @@ double dsacstar_rgbd_backward(
     	inlierThreshold,
     	maxDistError);
 
-    std::cout << "Done in " << stopW.stop() / 1000 << "s." << std::endl;
+    // std::cout << "Done in " << stopW.stop() / 1000 << "s." << std::endl;
 
     // assemble full gradient tensor
     for(unsigned h = 0; h < refHyps.size(); h++)

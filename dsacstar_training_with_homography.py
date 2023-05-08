@@ -53,7 +53,7 @@ parser.add_argument('--maxpixelerror', '-maxerrr', type=float, default=100,
 
 parser.add_argument('--tiny', '-tiny', action='store_true',
 	help='Train a model with massively reduced capacity for a low memory footprint.')
-parser.add_argument('--print_every', type=int, default=100, 
+parser.add_argument('--print_every', type=int, default=10, 
 	help='print loss every this number of images')
 
 parser.add_argument('--save_every', type=int, default=2, 
@@ -119,7 +119,7 @@ else:
 train_dataset = datasets.RelocDataset(dataset.train_data)
 test_dataset = datasets.RelocDataset(dataset.test_data)
 
-trainset_loader = torch.utils.data.DataLoader(train_dataset, shuffle=False, num_workers=6, batch_size=1)
+trainset_loader = torch.utils.data.DataLoader(train_dataset, shuffle=True, num_workers=6, batch_size=1)
 testset_loader = torch.utils.data.DataLoader(test_dataset, shuffle=False, num_workers=6, batch_size=1)
 
 # load network
@@ -162,11 +162,11 @@ def train(network = network,trainset_loader=trainset_loader,testset_laoder=tests
         
         network.train()
         print(f'epoch:{epoch}\n')
+        print('========================train=====================')
         running_loss = 0
         it = 0
         for data in trainset_loader:
             it+=1
-            continue
             with torch.no_grad():
                 optimizer.zero_grad()
 
@@ -202,16 +202,18 @@ def train(network = network,trainset_loader=trainset_loader,testset_laoder=tests
                 data['xmax'].item()
             )
     
-            
+            print(f'epoch {epoch} iteration {it} loss train = {loss}')
             running_loss += loss
+            # print(f'loss train = {running_loss}')
+
             torch.autograd.backward((scene_coordinates),(scene_coordinates_gradients.cuda()))
             optimizer.step()
             
             if it%opt.print_every==0 and it!=0:
-                writer.add_scalar('train loss',running_loss/it)
-                print(f'it={it} train_loss={running_loss/it}')
+                writer.add_scalar('train loss',running_loss/it,epoch*2000+it)
+                print(f'logged it={it} train_loss={running_loss/it}')
         
-        writer.add_scalar('per_epoch_training_loss',running_loss/len(trainset_loader),epoch)
+        writer.add_scalar('per_epoch_training_loss',running_loss,epoch)
 
         if epoch%opt.save_every==0:
             checkpoint_path = os.path.join(checkpoint_folder,f'check_point_epoch_{epoch}.pt')
@@ -225,7 +227,7 @@ def train(network = network,trainset_loader=trainset_loader,testset_laoder=tests
             )
        
         print(f"after {epoch} epoch train loss: {running_loss}")
-        
+        print('========================test=====================')
         criterion = LocalHomographyLoss()
         #test
         network.eval()
@@ -243,7 +245,7 @@ def train(network = network,trainset_loader=trainset_loader,testset_laoder=tests
                 scene_coordinates = network(image)
                 gt_pose = reverse_tr(crw, wtc)[0]
                 out_pose = torch.zeros((4,4))
-                print('here')
+                # print('here')
                 dsacstar.forward_rgb(
                     scene_coordinates.cpu(),
                     out_pose,
@@ -256,7 +258,7 @@ def train(network = network,trainset_loader=trainset_loader,testset_laoder=tests
                     opt.maxpixelerror,
                     network.OUTPUT_SUBSAMPLE
                 )
-                print('here 2')
+                # print('here 2')
                 
                 batch={}
                 batch['w_t_c'] = data['w_t_c']
@@ -268,10 +270,16 @@ def train(network = network,trainset_loader=trainset_loader,testset_laoder=tests
                 batch['xmin'] = data['xmin']
                 batch['xmax'] = data['xmax']
                 
-                print('here 3')
+                # print('here 3')
                 loss = criterion(batch)
                 running_test_loss+=loss.item()
-                print(f"running test loss {running_test_loss}")
+                
+                if it%opt.print_every==0 and it!=0:
+                    writer.add_scalar('test loss',running_loss/it,epoch*2000+it)
+                    print(f"running test loss {running_test_loss/it}")
+        
+        writer.add_scalar('per_epoch_testing_loss',running_loss,epoch)
+        print(f"after {epoch} epoch test loss:{running_loss}")
 
     
 
