@@ -12,6 +12,11 @@ import datasets
 from utils import tr, reverse_tr
 import pickle
 from torch.utils.tensorboard import SummaryWriter
+import sys
+
+print(f'system version\n{sys.version}')
+
+
 
 parser = argparse.ArgumentParser(
     description='Train a network on a specific scene',
@@ -119,7 +124,7 @@ else:
 train_dataset = datasets.RelocDataset(dataset.train_data)
 test_dataset = datasets.RelocDataset(dataset.test_data)
 
-trainset_loader = torch.utils.data.DataLoader(train_dataset, shuffle=True, num_workers=6, batch_size=1)
+trainset_loader = torch.utils.data.DataLoader(train_dataset, shuffle=False, num_workers=6, batch_size=1)
 testset_loader = torch.utils.data.DataLoader(test_dataset, shuffle=False, num_workers=6, batch_size=1)
 
 # load network
@@ -180,7 +185,7 @@ def train(network = network,trainset_loader=trainset_loader,testset_laoder=tests
             scene_coordinates = network(image)
             scene_coordinates_gradients = torch.zeros(scene_coordinates.size())
             gt_pose = reverse_tr(crw, wtc)[0]
-            
+            # print(f"cal loss for it {it}")
             # calculate loss
             loss = dsacstar.backward_rgb(
                 scene_coordinates.cpu(),

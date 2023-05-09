@@ -1,0 +1,4288 @@
+system version
+3.7.16 (default, Jan 17 2023, 22:20:44) 
+[GCC 11.2.0]
+Loading seq-01
+Loading seq-02
+Loading seq-03
+Loading seq-04
+Sorting depths, this may take a while...
+epoch:0
+
+========================train=====================
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1 loss train = 6.6030654789937655
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 2 loss train = 5.807082734230446
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 3 loss train = 5.703562550176771
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 4 loss train = 6.468121080203305
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 5 loss train = 6.310414220570664
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 6 loss train = 6.34417798653385
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 7 loss train = 6.5543321152981155
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 8 loss train = 6.405893062967628
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 9 loss train = 6.3452968359781865
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 10 loss train = 6.358918512914188
+logged it=10 train_loss=6.290086457786692
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 11 loss train = 5.9544597129485055
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 12 loss train = 6.344728749384749
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 13 loss train = 6.471845963388937
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 14 loss train = 6.481907187410959
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 15 loss train = 6.463338521527331
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 16 loss train = 6.0350601794338985
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 17 loss train = 6.160350178600791
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 18 loss train = 6.381179827356557
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 19 loss train = 6.476337961923374
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 20 loss train = 6.4377624900292245
+logged it=20 train_loss=6.305391767493562
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 21 loss train = 6.2716866535807325
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 22 loss train = 6.397198888723045
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 23 loss train = 6.615869973040595
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 24 loss train = 6.865656195810498
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 25 loss train = 6.7071160128460034
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 26 loss train = 5.967521435594556
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 27 loss train = 6.479022238264114
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 28 loss train = 6.276846138867343
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 29 loss train = 6.375409370913407
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 30 loss train = 6.523610843392801
+logged it=30 train_loss=6.352925770030144
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 31 loss train = 6.201856786496088
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 32 loss train = 6.194081107073831
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 33 loss train = 6.521447044393408
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 34 loss train = 6.474197538564511
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 35 loss train = 6.125163936984738
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 36 loss train = 6.672985072236139
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 37 loss train = 6.318079830067332
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 38 loss train = 6.396548953744109
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 39 loss train = 6.385446849805096
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 40 loss train = 6.567904964231228
+logged it=40 train_loss=6.361137129612519
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 41 loss train = 6.215146892799775
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 42 loss train = 6.541776107732009
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 43 loss train = 6.497223765002999
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 44 loss train = 6.765541837113768
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 45 loss train = 6.488620823403587
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 46 loss train = 6.280242995016718
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 47 loss train = 6.508316562852542
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 48 loss train = 6.936703097195118
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 49 loss train = 6.204667923390678
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 50 loss train = 6.79104406577716
+logged it=50 train_loss=6.393495385095702
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 51 loss train = 6.449495853553349
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 52 loss train = 6.794783912967029
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 53 loss train = 6.554519159010735
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 54 loss train = 6.552116411108987
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 55 loss train = 6.911775023629616
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 56 loss train = 6.460339471468987
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 57 loss train = 5.7173010308894465
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 58 loss train = 6.809953678380033
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 59 loss train = 6.640081682128056
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 60 loss train = 6.750446127893617
+logged it=60 train_loss=6.421926360096918
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 61 loss train = 7.071206026880065
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 62 loss train = 6.399590000223784
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 63 loss train = 6.537338849218964
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 64 loss train = 6.608704103991069
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 65 loss train = 6.689576804856412
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 66 loss train = 6.415253526658187
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 67 loss train = 6.6920746046567325
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 68 loss train = 6.193420908752344
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 69 loss train = 6.931611673845266
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 70 loss train = 6.789702556982292
+logged it=70 train_loss=6.452058009455431
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 71 loss train = 7.028540424901228
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 72 loss train = 7.025171087286277
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 73 loss train = 6.805275940347974
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 74 loss train = 6.623917569089066
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 75 loss train = 6.960208433082563
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 76 loss train = 7.035336739961381
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 77 loss train = 6.81939845582574
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 78 loss train = 7.461277280920278
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 79 loss train = 7.273826522518729
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 80 loss train = 6.9735834975332684
+logged it=80 train_loss=6.520632457666833
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 81 loss train = 7.198042840414971
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 82 loss train = 7.090342513745107
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 83 loss train = 6.852100081137975
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 84 loss train = 7.01105969848905
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 85 loss train = 7.158592293816617
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 86 loss train = 7.307300182528
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 87 loss train = 6.908352196300947
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 88 loss train = 6.823746482915898
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 89 loss train = 7.204358628994634
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 90 loss train = 6.533388886873132
+logged it=90 train_loss=6.574865337984034
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 91 loss train = 6.593736494364912
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 92 loss train = 7.311944393638387
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 93 loss train = 7.414428819851568
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 94 loss train = 6.8616939269595445
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 95 loss train = 6.456832425676072
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 96 loss train = 6.735942614029879
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 97 loss train = 6.727653202237144
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 98 loss train = 6.741569363456764
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 99 loss train = 6.4422670377701525
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 100 loss train = 6.678620006404229
+logged it=100 train_loss=6.597025687029517
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 101 loss train = 5.964339353240928
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 102 loss train = 6.481438145912272
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 103 loss train = 6.250589549909303
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 104 loss train = 6.759116736268439
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 105 loss train = 6.463612905168896
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 106 loss train = 6.183478533070854
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 107 loss train = 6.622383874070109
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 108 loss train = 6.1424932582523315
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 109 loss train = 6.006693355986398
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 110 loss train = 6.471064416066789
+logged it=110 train_loss=6.573161625735437
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 111 loss train = 6.072216181023652
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 112 loss train = 6.408058995455919
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 113 loss train = 6.163499322010962
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 114 loss train = 6.2829905533981725
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 115 loss train = 6.119304082357759
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 116 loss train = 6.22794517544818
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 117 loss train = 6.3696123842913135
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 118 loss train = 6.2567033667456275
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 119 loss train = 6.012446447007816
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 120 loss train = 6.51978463300157
+logged it=120 train_loss=6.545669499763658
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 121 loss train = 6.954790591898469
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 122 loss train = 6.176262102536075
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 123 loss train = 6.277172439082954
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 124 loss train = 6.45930194049155
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 125 loss train = 6.416751899136717
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 126 loss train = 6.114331434872867
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 127 loss train = 6.372477769591264
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 128 loss train = 6.761958300400128
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 129 loss train = 7.053542541959325
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 130 loss train = 6.902673237169701
+logged it=130 train_loss=6.545920017144445
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 131 loss train = 6.698271647330206
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 132 loss train = 6.96457727411547
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 133 loss train = 6.36409447730074
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 134 loss train = 6.056566752335331
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 135 loss train = 6.871209748170702
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 136 loss train = 6.693424844700857
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 137 loss train = 6.698854590961042
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 138 loss train = 6.6490137329661865
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 139 loss train = 5.897449946905224
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 140 loss train = 6.648639729946669
+logged it=140 train_loss=6.546512178382216
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 141 loss train = 6.532139342074568
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 142 loss train = 6.060051032996402
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 143 loss train = 6.359540685735057
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 144 loss train = 7.129728180875356
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 145 loss train = 6.442084006224379
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 146 loss train = 6.137458904154572
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 147 loss train = 6.2685273790986535
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 148 loss train = 6.215147227734106
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 149 loss train = 6.574340704959689
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 150 loss train = 6.45936656368749
+logged it=150 train_loss=6.537933926673668
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 151 loss train = 5.745837097668947
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 152 loss train = 5.640413680762912
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 153 loss train = 6.567395625086765
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 154 loss train = 5.757758522106066
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 155 loss train = 5.870500956169308
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 156 loss train = 6.66944250388707
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 157 loss train = 6.683279148941377
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 158 loss train = 6.652213624450799
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 159 loss train = 6.4517434414652035
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 160 loss train = 5.675201117644786
+logged it=160 train_loss=6.51502421699521
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 161 loss train = 5.933726183553341
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 162 loss train = 6.30305852286413
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 163 loss train = 4.919378371649828
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 164 loss train = 6.208252268054526
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 165 loss train = 6.0472450549603955
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 166 loss train = 5.938094626282184
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 167 loss train = 5.202672484809656
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 168 loss train = 6.22835822679365
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 169 loss train = 6.198475841296405
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 170 loss train = 6.039951254745736
+logged it=170 train_loss=6.478959338554374
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 171 loss train = 5.580094536300126
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 172 loss train = 5.585678089204049
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 173 loss train = 5.900121393641766
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 174 loss train = 6.335268612544554
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 175 loss train = 5.166723259365946
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 176 loss train = 5.6030157040354
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 177 loss train = 5.358742366646597
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 178 loss train = 5.514732231095899
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 179 loss train = 5.829492931157631
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 180 loss train = 5.766375546935816
+logged it=180 train_loss=6.433685179028727
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 181 loss train = 6.136392804078687
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 182 loss train = 5.564628810853441
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 183 loss train = 5.527328636072777
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 184 loss train = 6.206533229728562
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 185 loss train = 5.884378697026225
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 186 loss train = 5.7235865571387325
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 187 loss train = 5.2710226346563305
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 188 loss train = 5.768258949438559
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 189 loss train = 6.158326669643075
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 190 loss train = 5.971674815621327
+logged it=190 train_loss=6.4014498106812034
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 191 loss train = 6.055395036788022
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 192 loss train = 5.975953881048036
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 193 loss train = 6.413791044592035
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 194 loss train = 6.6067334329604535
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 195 loss train = 5.8557355293525175
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 196 loss train = 6.197112712843121
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 197 loss train = 6.3172849140969785
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 198 loss train = 5.520880047207941
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 199 loss train = 5.879086598070117
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 200 loss train = 6.637978867609906
+logged it=200 train_loss=6.38867708046999
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 201 loss train = 5.997575424903593
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 202 loss train = 6.18050764667752
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 203 loss train = 6.214822598158873
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 204 loss train = 6.311124825905347
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 205 loss train = 6.178022725468734
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 206 loss train = 6.402512984134316
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 207 loss train = 6.15735765447913
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 208 loss train = 7.115497199873699
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 209 loss train = 6.256538311029668
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 210 loss train = 6.455257609614666
+logged it=210 train_loss=6.385736347972589
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 211 loss train = 6.623455840823388
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 212 loss train = 6.657946970881124
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 213 loss train = 6.918696602438962
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 214 loss train = 6.836166371833248
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 215 loss train = 6.656725711096574
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 216 loss train = 6.436896298782838
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 217 loss train = 6.601342878062169
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 218 loss train = 6.575244110834799
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 219 loss train = 6.4093824059716535
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 220 loss train = 6.388582812496509
+logged it=220 train_loss=6.395950332170296
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 221 loss train = 6.558374567220555
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 222 loss train = 6.418312029746449
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 223 loss train = 6.9911675806144205
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 224 loss train = 6.615087234626211
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 225 loss train = 6.571157451235676
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 226 loss train = 6.001640827990972
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 227 loss train = 6.357513768020432
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 228 loss train = 6.129195208587764
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 229 loss train = 6.5282421133195125
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 230 loss train = 6.129810977789991
+logged it=230 train_loss=6.397432934072248
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 231 loss train = 5.792753792201403
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 232 loss train = 6.034181989666163
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 233 loss train = 6.03902419210817
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 234 loss train = 6.277259521819744
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 235 loss train = 6.009802711541957
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 236 loss train = 6.807694723076572
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 237 loss train = 6.1841775500967815
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 238 loss train = 6.286188832542082
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 239 loss train = 6.056015834050042
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 240 loss train = 6.441446172404271
+logged it=240 train_loss=6.388908833983852
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 241 loss train = 6.2915039388173595
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 242 loss train = 6.226881470402809
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 243 loss train = 6.31373155770644
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 244 loss train = 6.286511830524992
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 245 loss train = 6.38224731865717
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 246 loss train = 6.419000208461682
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 247 loss train = 6.2106376597844815
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 248 loss train = 6.235625948476395
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 249 loss train = 6.401830924145187
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 250 loss train = 6.319579104159734
+logged it=250 train_loss=6.385702680469041
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 251 loss train = 6.198965767743125
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 252 loss train = 6.034423663111111
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 253 loss train = 6.746052270866823
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 254 loss train = 6.178708701795573
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 255 loss train = 6.517134295923059
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 256 loss train = 6.148142009183293
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 257 loss train = 6.629419187718863
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 258 loss train = 6.145795263889716
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 259 loss train = 6.253704133702193
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 260 loss train = 6.258620788314311
+logged it=260 train_loss=6.382833216151957
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 261 loss train = 6.528259976543875
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 262 loss train = 6.081387420928379
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 263 loss train = 6.205942424201355
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 264 loss train = 6.215862056460299
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 265 loss train = 6.497773065722626
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 266 loss train = 6.597152994296918
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 267 loss train = 6.682324014857734
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 268 loss train = 6.474734343429603
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 269 loss train = 6.46842960419164
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 270 loss train = 6.640417899581546
+logged it=270 train_loss=6.384921925924901
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 271 loss train = 6.582363973334178
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 272 loss train = 6.51022418813915
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 273 loss train = 6.688471939452376
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 274 loss train = 6.6273843886531525
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 275 loss train = 6.582854956798002
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 276 loss train = 6.353098951669265
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 277 loss train = 6.3694720776250096
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 278 loss train = 6.7198555659853545
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 279 loss train = 6.909560702472371
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 280 loss train = 6.927614871887496
+logged it=280 train_loss=6.393570791484784
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 281 loss train = 6.883086167821353
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 282 loss train = 6.532279748289996
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 283 loss train = 6.713798972352127
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 284 loss train = 6.711226368160203
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 285 loss train = 6.930750053995688
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 286 loss train = 6.39206997111366
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 287 loss train = 6.898745419436521
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 288 loss train = 6.767744990646199
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 289 loss train = 6.635223992056067
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 290 loss train = 6.914651978204685
+logged it=290 train_loss=6.405446204406261
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 291 loss train = 6.870424769405781
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 292 loss train = 6.672564867473278
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 293 loss train = 6.5830561931695435
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 294 loss train = 6.443166698740882
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 295 loss train = 6.307704182441829
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 296 loss train = 7.02811693565758
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 297 loss train = 6.6380600160672785
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 298 loss train = 6.812079989618063
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 299 loss train = 6.384648887127152
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 300 loss train = 6.253904166922196
+logged it=300 train_loss=6.411910419948132
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 301 loss train = 6.906883708618486
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 302 loss train = 6.471590758229566
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 303 loss train = 6.456024704827972
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 304 loss train = 6.672173908982979
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 305 loss train = 6.574023382834293
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 306 loss train = 6.880568933230932
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 307 loss train = 6.3275367361839345
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 308 loss train = 6.672442467817363
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 309 loss train = 6.61176254260993
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 310 loss train = 6.687219222462645
+logged it=310 train_loss=6.418817265645928
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 311 loss train = 6.618072638791209
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 312 loss train = 6.3332999257384825
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 313 loss train = 6.86014703948019
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 314 loss train = 6.9059937527220665
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 315 loss train = 6.185989692500865
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 316 loss train = 6.599547209056261
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 317 loss train = 6.508460418516013
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 318 loss train = 6.8224599539501085
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 319 loss train = 6.522539752313969
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 320 loss train = 6.710896822357222
+logged it=320 train_loss=6.424689873611451
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 321 loss train = 6.7519871768272255
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 322 loss train = 7.027669199440604
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 323 loss train = 6.602327184638785
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 324 loss train = 6.4653164728586345
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 325 loss train = 6.715340114483152
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 326 loss train = 6.447072315440084
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 327 loss train = 6.439891546106995
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 328 loss train = 6.674420731362249
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 329 loss train = 6.657051688034733
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 330 loss train = 6.745123945850612
+logged it=330 train_loss=6.431596848274871
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 331 loss train = 6.172789723622193
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 332 loss train = 7.018052470856063
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 333 loss train = 6.241419562917404
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 334 loss train = 6.6931962484484755
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 335 loss train = 6.665523696490695
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 336 loss train = 6.665880949355869
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 337 loss train = 6.568879231768463
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 338 loss train = 6.8433599897226145
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 339 loss train = 6.48247026176823
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 340 loss train = 6.733105475376761
+logged it=340 train_loss=6.43679893394422
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 341 loss train = 6.841207306697205
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 342 loss train = 6.4800476962029565
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 343 loss train = 6.949248162692234
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 344 loss train = 7.066573901642102
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 345 loss train = 6.738306206946445
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 346 loss train = 6.928371803681702
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 347 loss train = 6.58847155727014
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 348 loss train = 6.11570911584704
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 349 loss train = 6.720981413239679
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 350 loss train = 6.490662263011022
+logged it=350 train_loss=6.444089191337901
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 351 loss train = 6.061006042685957
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 352 loss train = 6.322540048915794
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 353 loss train = 6.4789637122182135
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 354 loss train = 5.969104510172398
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 355 loss train = 6.0770312487286
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 356 loss train = 6.31165617263995
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 357 loss train = 6.189663492487018
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 358 loss train = 6.226764122411978
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 359 loss train = 5.764099638493295
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 360 loss train = 6.3963277188652965
+logged it=360 train_loss=6.436745482433011
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 361 loss train = 6.521747671874895
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 362 loss train = 6.16327416962446
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 363 loss train = 6.853098399235762
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 364 loss train = 6.4226050759938245
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 365 loss train = 6.572121850600753
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 366 loss train = 6.206512584055293
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 367 loss train = 6.346039744741109
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 368 loss train = 6.2013475033952945
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 369 loss train = 6.452005435596446
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 370 loss train = 6.367150872772326
+logged it=370 train_loss=6.436038586442635
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 371 loss train = 6.028173502600273
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 372 loss train = 6.574595672788214
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 373 loss train = 5.930221201207132
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 374 loss train = 6.1012026876031324
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 375 loss train = 6.140026607405314
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 376 loss train = 6.11234336032076
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 377 loss train = 5.876870375486742
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 378 loss train = 6.120406476691868
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 379 loss train = 6.02960897406077
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 380 loss train = 6.078309073088451
+logged it=380 train_loss=6.427173776092177
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 381 loss train = 6.160650273897108
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 382 loss train = 5.725930030157056
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 383 loss train = 5.915636559479356
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 384 loss train = 6.188093215687267
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 385 loss train = 6.112342137237
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 386 loss train = 6.165294384486142
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 387 loss train = 5.894392471166915
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 388 loss train = 5.619234941102841
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 389 loss train = 5.921497441569554
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 390 loss train = 5.881028742295038
+logged it=390 train_loss=6.415154192595145
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 391 loss train = 5.819886124709798
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 392 loss train = 6.3362901052420915
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 393 loss train = 5.871664894919621
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 394 loss train = 5.73440132663509
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 395 loss train = 6.220028399362346
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 396 loss train = 5.830495665104648
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 397 loss train = 5.685690198495463
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 398 loss train = 5.953649022540814
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 399 loss train = 5.843707451903698
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 400 loss train = 5.6623614735959515
+logged it=400 train_loss=6.4021707744365415
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 401 loss train = 5.553569914316448
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 402 loss train = 5.942860255982188
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 403 loss train = 6.379222031609996
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 404 loss train = 5.687596858119248
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 405 loss train = 5.453130226669317
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 406 loss train = 5.805048890455072
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 407 loss train = 5.924773058941339
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 408 loss train = 5.769025640747178
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 409 loss train = 5.945453743825718
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 410 loss train = 5.574668716717834
+logged it=410 train_loss=6.387569900273173
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 411 loss train = 5.762990755802765
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 412 loss train = 5.408192700693551
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 413 loss train = 5.578109089353246
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 414 loss train = 5.860523190529231
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 415 loss train = 5.526057184965459
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 416 loss train = 5.772364193840142
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 417 loss train = 5.733741494947814
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 418 loss train = 5.916115004698196
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 419 loss train = 5.630984428712157
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 420 loss train = 5.492664722526638
+logged it=420 train_loss=6.370441433043024
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 421 loss train = 5.653653714869475
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 422 loss train = 5.546252577336011
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 423 loss train = 5.526423373255892
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 424 loss train = 5.383422479836122
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 425 loss train = 5.435961367926937
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 426 loss train = 5.455799543148375
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 427 loss train = 5.467611077177666
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 428 loss train = 5.802158376889921
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 429 loss train = 5.898499071022752
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 430 loss train = 5.302311415096482
+logged it=430 train_loss=6.351296499708441
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 431 loss train = 5.5159868261792
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 432 loss train = 5.2375930918495035
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 433 loss train = 5.5861027240386525
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 434 loss train = 5.377973918198222
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 435 loss train = 5.1554280607459875
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 436 loss train = 4.916392978310772
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 437 loss train = 5.4457963114540515
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 438 loss train = 5.2950083194969775
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 439 loss train = 5.604805167086702
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 440 loss train = 5.686973379460465
+logged it=440 train_loss=6.329271717389662
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 441 loss train = 5.6209084647776
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 442 loss train = 5.317592720725031
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 443 loss train = 5.494591759057322
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 444 loss train = 6.130312873022864
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 445 loss train = 5.2675963120360985
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 446 loss train = 5.625392200167405
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 447 loss train = 5.672872134425646
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 448 loss train = 5.252129848561543
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 449 loss train = 5.841809343675529
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 450 loss train = 6.074385920184741
+logged it=450 train_loss=6.313726993840187
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 451 loss train = 5.024103251908066
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 452 loss train = 5.410379303943864
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 453 loss train = 5.577637861093511
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 454 loss train = 6.070747933374748
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 455 loss train = 5.655227687116109
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 456 loss train = 5.309872239609306
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 457 loss train = 5.732969500723517
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 458 loss train = 5.584415290092964
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 459 loss train = 5.549245603967743
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 460 loss train = 4.961513020163699
+logged it=460 train_loss=6.2957679541740825
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 461 loss train = 5.227709460912881
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 462 loss train = 5.3425238788279135
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 463 loss train = 5.261516177366787
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 464 loss train = 5.512980148655375
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 465 loss train = 5.346328573856343
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 466 loss train = 5.55829186313949
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 467 loss train = 5.792466407977258
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 468 loss train = 5.989216064142941
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 469 loss train = 5.891619625161842
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 470 loss train = 5.409780943651295
+logged it=470 train_loss=6.279544025667596
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 471 loss train = 5.557484954187319
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 472 loss train = 5.629999294220079
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 473 loss train = 5.68683418977963
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 474 loss train = 5.440245812071132
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 475 loss train = 5.580463910417067
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 476 loss train = 5.797746896016367
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 477 loss train = 5.68232483271438
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 478 loss train = 5.718276654045316
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 479 loss train = 5.911272665834325
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 480 loss train = 5.864631000910101
+logged it=480 train_loss=6.267197858904097
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 481 loss train = 5.809759649068094
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 482 loss train = 5.864341313790043
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 483 loss train = 5.90315332369945
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 484 loss train = 5.996515092317767
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 485 loss train = 5.883134799047278
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 486 loss train = 6.024485629164551
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 487 loss train = 5.8203201323281455
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 488 loss train = 5.859154537693651
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 489 loss train = 6.482944042992442
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 490 loss train = 5.934275651426989
+logged it=490 train_loss=6.260883788664275
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 491 loss train = 5.7267545629406476
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 492 loss train = 5.836682824923982
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 493 loss train = 5.962966901311779
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 494 loss train = 6.030328391906257
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 495 loss train = 5.8319560095295415
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 496 loss train = 5.631438974127333
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 497 loss train = 6.372123891958955
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 498 loss train = 5.706793727622979
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 499 loss train = 6.314356886963033
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 500 loss train = 6.03961391850442
+logged it=500 train_loss=6.254572145070567
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 501 loss train = 5.850414623595705
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 502 loss train = 6.001075238463751
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 503 loss train = 6.021893952104672
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 504 loss train = 5.7746567344026705
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 505 loss train = 5.880103650405479
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 506 loss train = 5.915526719955888
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 507 loss train = 5.861831637078827
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 508 loss train = 5.281709331606697
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 509 loss train = 6.101068696318867
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 510 loss train = 5.587034192731583
+logged it=510 train_loss=6.246198798650877
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 511 loss train = 6.7632923931974505
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 512 loss train = 6.054688443839577
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 513 loss train = 6.235483931054312
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 514 loss train = 6.530097922234192
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 515 loss train = 5.65567200673574
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 516 loss train = 5.741247687182796
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 517 loss train = 6.294093185998259
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 518 loss train = 5.622472606209139
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 519 loss train = 5.984317756453013
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 520 loss train = 6.303822543004139
+logged it=520 train_loss=6.243743414976646
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 521 loss train = 5.602759597575709
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 522 loss train = 6.478424495574399
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 523 loss train = 6.237167990884875
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 524 loss train = 6.3486569283106515
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 525 loss train = 6.575693286254471
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 526 loss train = 6.197519236211052
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 527 loss train = 5.857998028646543
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 528 loss train = 6.341595630820699
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 529 loss train = 6.488917610675335
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 530 loss train = 6.248153225937648
+logged it=530 train_loss=6.243629173242919
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 531 loss train = 6.128118919368693
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 532 loss train = 5.977244687542558
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 533 loss train = 6.351289574236959
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 534 loss train = 6.127395975559485
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 535 loss train = 6.463026078487803
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 536 loss train = 6.135100776909411
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 537 loss train = 6.09183255286636
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 538 loss train = 5.6325733956054265
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 539 loss train = 7.0903036186494
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 540 loss train = 6.144829681135044
+logged it=540 train_loss=6.243083661257609
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 541 loss train = 6.352425080922069
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 542 loss train = 6.415433080233997
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 543 loss train = 6.0167438267493285
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 544 loss train = 6.170496881956766
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 545 loss train = 5.751097180775043
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 546 loss train = 6.371211679088425
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 547 loss train = 6.370916338658261
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 548 loss train = 6.320421149892123
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 549 loss train = 6.865088195356603
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 550 loss train = 5.811360371524107
+logged it=550 train_loss=6.243109765207756
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 551 loss train = 6.112577316560277
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 552 loss train = 6.412745640430173
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 553 loss train = 6.146310369662569
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 554 loss train = 6.408676659742646
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 555 loss train = 6.471090281278634
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 556 loss train = 6.050783117642339
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 557 loss train = 6.139514919480296
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 558 loss train = 5.840661562282135
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 559 loss train = 5.577913676983881
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 560 loss train = 6.329170888454922
+logged it=560 train_loss=6.241428241601399
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 561 loss train = 5.7825289200974925
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 562 loss train = 5.711920926292402
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 563 loss train = 6.507707991332171
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 564 loss train = 6.323399919727556
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 565 loss train = 6.349594023184394
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 566 loss train = 6.450371403496476
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 567 loss train = 6.496193621731395
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 568 loss train = 6.043126324832743
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 569 loss train = 6.403870819256668
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 570 loss train = 6.573100776954967
+logged it=570 train_loss=6.241827421094192
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 571 loss train = 6.4542831124572775
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 572 loss train = 6.278341292900531
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 573 loss train = 6.371109060700126
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 574 loss train = 6.260189312385254
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 575 loss train = 6.508324878948682
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 576 loss train = 6.021109155566655
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 577 loss train = 6.586594464336033
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 578 loss train = 6.073243641510581
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 579 loss train = 6.594828233240508
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 580 loss train = 6.3439243974541615
+logged it=580 train_loss=6.24367858202274
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 581 loss train = 6.761229525423504
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 582 loss train = 6.630774655528043
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 583 loss train = 6.020102122087318
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 584 loss train = 6.342335403061175
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 585 loss train = 6.863601767558544
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 586 loss train = 5.7417441611429005
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 587 loss train = 6.533788460111853
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 588 loss train = 6.715485891457847
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 589 loss train = 6.75602221919428
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 590 loss train = 6.524778232570095
+logged it=590 train_loss=6.247836339002244
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 591 loss train = 5.972407863424765
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 592 loss train = 6.351060200274215
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 593 loss train = 6.04826268392302
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 594 loss train = 5.620167018193536
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 595 loss train = 5.815312107808731
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 596 loss train = 6.275715851051309
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 597 loss train = 6.236483715072127
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 598 loss train = 6.31123873382872
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 599 loss train = 5.9232927621598135
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 600 loss train = 5.678208321553212
+logged it=600 train_loss=6.244092648781023
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 601 loss train = 5.614348187630438
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 602 loss train = 5.885810890171294
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 603 loss train = 5.92831966402323
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 604 loss train = 6.080711134586728
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 605 loss train = 5.950247979305224
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 606 loss train = 6.20346830164337
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 607 loss train = 5.4766392002335476
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 608 loss train = 5.539698584595732
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 609 loss train = 5.728930636819375
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 610 loss train = 5.51862114736446
+logged it=610 train_loss=6.2366924344180115
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 611 loss train = 5.649608024622258
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 612 loss train = 5.386049254256221
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 613 loss train = 5.631857431649292
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 614 loss train = 5.668237315394203
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 615 loss train = 4.935124374378429
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 616 loss train = 5.20735895985
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 617 loss train = 5.009160187453209
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 618 loss train = 5.1203698879383035
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 619 loss train = 5.700751467206985
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 620 loss train = 5.369578998114297
+logged it=620 train_loss=6.222678194993307
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 621 loss train = 5.043558026391806
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 622 loss train = 5.063744269806087
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 623 loss train = 5.140550359877216
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 624 loss train = 5.300770936509898
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 625 loss train = 5.384151282864362
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 626 loss train = 5.18653342756813
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 627 loss train = 5.694302384892292
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 628 loss train = 4.9028208634742985
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 629 loss train = 5.804036644032878
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 630 loss train = 4.929140443437159
+logged it=630 train_loss=6.207158872277309
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 631 loss train = 4.81093026005879
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 632 loss train = 5.07605642305033
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 633 loss train = 4.855631079864607
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 634 loss train = 5.754593760869732
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 635 loss train = 5.478381992823703
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 636 loss train = 5.145941019298668
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 637 loss train = 4.9828584790785655
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 638 loss train = 5.273549825923234
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 639 loss train = 5.637842873369814
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 640 loss train = 5.019712402474508
+logged it=640 train_loss=6.191477480705494
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 641 loss train = 4.889388519366324
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 642 loss train = 4.988392148604328
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 643 loss train = 5.395290468306681
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 644 loss train = 5.2586373254303265
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 645 loss train = 5.3929662817254815
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 646 loss train = 5.476091189434335
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 647 loss train = 5.371150938383636
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 648 loss train = 5.329755866879843
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 649 loss train = 5.095959593521095
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 650 loss train = 5.36528629577839
+logged it=650 train_loss=6.177090009659918
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 651 loss train = 5.595395815606719
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 652 loss train = 5.728012947844977
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 653 loss train = 5.466771552455345
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 654 loss train = 5.817488464613298
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 655 loss train = 5.810635443853274
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 656 loss train = 4.36947694391169
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 657 loss train = 5.582517459044411
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 658 loss train = 5.025720649536041
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 659 loss train = 5.947833099023394
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 660 loss train = 5.157856787298266
+logged it=660 train_loss=6.166076084003234
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 661 loss train = 5.517127553913416
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 662 loss train = 5.788425940576905
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 663 loss train = 5.849405488146643
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 664 loss train = 5.4631207161776185
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 665 loss train = 5.419244861741761
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 666 loss train = 5.631270600232925
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 667 loss train = 5.708710664904724
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 668 loss train = 5.438600727207506
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 669 loss train = 5.790846024431107
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 670 loss train = 5.96334155605324
+logged it=670 train_loss=6.1584780739933125
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 671 loss train = 6.328290151717453
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 672 loss train = 5.654480311276946
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 673 loss train = 5.760006066144229
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 674 loss train = 5.414627247028536
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 675 loss train = 5.339816257801206
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 676 loss train = 5.972985372535685
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 677 loss train = 5.858071189769527
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 678 loss train = 5.67627409509988
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 679 loss train = 5.82994306060819
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 680 loss train = 5.537010773821319
+logged it=680 train_loss=6.15228207956077
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 681 loss train = 5.550929436438506
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 682 loss train = 6.158526351132383
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 683 loss train = 6.000893705537109
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 684 loss train = 5.928786716908454
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 685 loss train = 5.748881574116662
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 686 loss train = 5.817521871717306
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 687 loss train = 6.507781332973267
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 688 loss train = 5.870720748227647
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 689 loss train = 5.776780977472123
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 690 loss train = 5.682195372647234
+logged it=690 train_loss=6.148688162592021
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 691 loss train = 5.715867130545465
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 692 loss train = 5.288336174449036
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 693 loss train = 5.910560296163211
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 694 loss train = 5.720202643510036
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 695 loss train = 5.580661360640345
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 696 loss train = 5.134696690291368
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 697 loss train = 5.772825907672565
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 698 loss train = 5.9343528142993245
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 699 loss train = 5.766872574707464
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 700 loss train = 6.212922123913807
+logged it=700 train_loss=6.142331614149551
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 701 loss train = 5.708530907599362
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 702 loss train = 5.745072542798032
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 703 loss train = 5.5719116114787095
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 704 loss train = 5.727298714460868
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 705 loss train = 6.16050243132168
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 706 loss train = 6.260171768419295
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 707 loss train = 5.369507657209561
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 708 loss train = 5.971225760910481
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 709 loss train = 6.044207709831228
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 710 loss train = 5.891070878894124
+logged it=710 train_loss=6.138143140686775
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 711 loss train = 5.918544326580106
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 712 loss train = 5.792356150725792
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 713 loss train = 6.0940933768235475
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 714 loss train = 5.9230673309620885
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 715 loss train = 5.953612118880595
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 716 loss train = 5.820345169977574
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 717 loss train = 5.8680127092134295
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 718 loss train = 5.887784775401596
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 719 loss train = 5.942890812782154
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 720 loss train = 6.434387274692472
+logged it=720 train_loss=6.135717672130069
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 721 loss train = 6.326599912939408
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 722 loss train = 5.8866742881870255
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 723 loss train = 6.2262915289660405
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 724 loss train = 6.155753127827564
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 725 loss train = 5.831800051100681
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 726 loss train = 5.909813123192802
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 727 loss train = 6.106657145507429
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 728 loss train = 6.03995307357471
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 729 loss train = 6.0181363831734656
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 730 loss train = 6.042046489995379
+logged it=730 train_loss=6.13460335487413
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 731 loss train = 6.303842090257923
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 732 loss train = 6.034182567029427
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 733 loss train = 5.799751898463343
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 734 loss train = 6.500332047854059
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 735 loss train = 6.009860329744523
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 736 loss train = 6.316158043383723
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 737 loss train = 5.649613103101134
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 738 loss train = 5.70004168911189
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 739 loss train = 5.573932431670722
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 740 loss train = 5.997755384793788
+logged it=740 train_loss=6.132629619788547
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 741 loss train = 5.946689978067574
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 742 loss train = 6.273135791012271
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 743 loss train = 6.07264877887153
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 744 loss train = 5.993496393028958
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 745 loss train = 6.255232442437655
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 746 loss train = 5.868918144604408
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 747 loss train = 5.415772904410545
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 748 loss train = 5.506050644646402
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 749 loss train = 6.0867915418200775
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 750 loss train = 5.715975698869541
+logged it=750 train_loss=6.1297075079483925
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 751 loss train = 6.100602385145731
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 752 loss train = 5.9281296504708605
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 753 loss train = 6.259226566396307
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 754 loss train = 5.706191730129906
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 755 loss train = 5.860862653335608
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 756 loss train = 5.723531645714651
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 757 loss train = 5.561176688750044
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 758 loss train = 5.964436081877721
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 759 loss train = 5.6454273107202155
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 760 loss train = 5.904775932183756
+logged it=760 train_loss=6.126230252113183
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 761 loss train = 5.905689998005894
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 762 loss train = 5.794236231844233
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 763 loss train = 5.772875015280129
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 764 loss train = 5.969344545178723
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 765 loss train = 5.927783420791321
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 766 loss train = 5.503893389718289
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 767 loss train = 5.681396809986492
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 768 loss train = 5.612418855339339
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 769 loss train = 5.706424382469788
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 770 loss train = 5.1568342795497975
+logged it=770 train_loss=6.120734920174265
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 771 loss train = 5.999027384617881
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 772 loss train = 6.023503112772627
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 773 loss train = 5.418325697959606
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 774 loss train = 5.935423870175352
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 775 loss train = 5.5259831389210925
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 776 loss train = 5.799354419904807
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 777 loss train = 5.756194129898837
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 778 loss train = 5.472670244000729
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 779 loss train = 5.74673295945055
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 780 loss train = 5.500045699314622
+logged it=780 train_loss=6.115568139988718
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 781 loss train = 6.038977640014187
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 782 loss train = 5.404173867881822
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 783 loss train = 5.3240308848686615
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 784 loss train = 5.737389205545934
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 785 loss train = 5.89622760288328
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 786 loss train = 5.725518032171733
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 787 loss train = 6.33755827913676
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 788 loss train = 5.821241333197108
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 789 loss train = 5.512395745801575
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 790 loss train = 6.427336738978137
+logged it=790 train_loss=6.111858225976809
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 791 loss train = 5.643833635115699
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 792 loss train = 6.250595335585867
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 793 loss train = 5.9792631332222665
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 794 loss train = 5.832546234203933
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 795 loss train = 5.782055253743305
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 796 loss train = 5.776792878727592
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 797 loss train = 5.898075947395364
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 798 loss train = 6.288841000312867
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 799 loss train = 5.687252696317529
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 800 loss train = 6.1935274784923635
+logged it=800 train_loss=6.1096259776434945
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 801 loss train = 6.193971310050511
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 802 loss train = 6.023180130879414
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 803 loss train = 5.812047375481499
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 804 loss train = 5.936803062627896
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 805 loss train = 5.72936061344976
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 806 loss train = 6.352744542962899
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 807 loss train = 5.959705207702838
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 808 loss train = 6.2537380882238915
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 809 loss train = 6.268476235136542
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 810 loss train = 6.0113526350945365
+logged it=810 train_loss=6.1089409398967955
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 811 loss train = 6.004562038367924
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 812 loss train = 5.69177705219566
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 813 loss train = 5.64627757486878
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 814 loss train = 6.396541717838284
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 815 loss train = 5.622132692885869
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 816 loss train = 5.775154060896585
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 817 loss train = 6.19578580672698
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 818 loss train = 6.0956828099359965
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 819 loss train = 6.209831860323735
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 820 loss train = 5.925345115916846
+logged it=820 train_loss=6.107079575666295
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 821 loss train = 5.96555455783578
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 822 loss train = 6.158049707102902
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 823 loss train = 6.151395970714057
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 824 loss train = 5.846853235716019
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 825 loss train = 6.282358765948178
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 826 loss train = 5.916274022133347
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 827 loss train = 6.15996884414533
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 828 loss train = 5.8438980928746895
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 829 loss train = 6.197930493661245
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 830 loss train = 5.626514969932373
+logged it=830 train_loss=6.105968735790875
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 831 loss train = 6.122132550575213
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 832 loss train = 6.121862759147429
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 833 loss train = 5.6367389265803345
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 834 loss train = 5.73993822745647
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 835 loss train = 6.4014734965240025
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 836 loss train = 6.1639953990869945
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 837 loss train = 6.041511929742171
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 838 loss train = 5.557268694685872
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 839 loss train = 6.254615935577077
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 840 loss train = 5.550931365071822
+logged it=840 train_loss=6.104219666655802
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 841 loss train = 5.854290975223866
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 842 loss train = 6.0381923767893895
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 843 loss train = 5.636272708281202
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 844 loss train = 5.760467075796326
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 845 loss train = 5.97919622928065
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 846 loss train = 5.905447042065397
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 847 loss train = 5.522314685019707
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 848 loss train = 5.487314408367418
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 849 loss train = 6.100578141260583
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 850 loss train = 5.934667204566195
+logged it=850 train_loss=6.1008979539264985
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 851 loss train = 4.792265616183246
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 852 loss train = 5.264712539061567
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 853 loss train = 5.680448495852695
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 854 loss train = 5.056272239973611
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 855 loss train = 5.32155212294792
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 856 loss train = 5.112993585557433
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 857 loss train = 5.700366133318235
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 858 loss train = 5.056395238827549
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 859 loss train = 5.39242746819238
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 860 loss train = 5.324129776810761
+logged it=860 train_loss=6.09123816750494
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 861 loss train = 5.105176493764207
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 862 loss train = 5.023130245663696
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 863 loss train = 5.253192205369407
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 864 loss train = 5.307140460244738
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 865 loss train = 5.185466111461276
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 866 loss train = 5.329640650009687
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 867 loss train = 5.320185747485829
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 868 loss train = 4.90415866955747
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 869 loss train = 5.261791711304189
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 870 loss train = 4.813892714311616
+logged it=870 train_loss=6.080423677084392
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 871 loss train = 4.896031529391391
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 872 loss train = 5.594576555177648
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 873 loss train = 4.752171880006322
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 874 loss train = 5.495223767032461
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 875 loss train = 4.85774045030719
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 876 loss train = 5.029591080575753
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 877 loss train = 4.897961094881562
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 878 loss train = 4.846419977485159
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 879 loss train = 5.091163725650381
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 880 loss train = 4.901838194662292
+logged it=880 train_loss=6.068558315134763
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 881 loss train = 4.86545523311228
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 882 loss train = 5.133737025990007
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 883 loss train = 5.195180784914841
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 884 loss train = 5.179814008231577
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 885 loss train = 5.539489358603501
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 886 loss train = 5.0782583363528895
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 887 loss train = 5.2901364931754165
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 888 loss train = 5.475105842260851
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 889 loss train = 5.176166757293939
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 890 loss train = 5.2491923324746015
+logged it=890 train_loss=6.05900432976517
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 891 loss train = 5.2467342622518744
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 892 loss train = 5.421028360838926
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 893 loss train = 5.371784338437477
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 894 loss train = 4.609826086310799
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 895 loss train = 5.1553132662187755
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 896 loss train = 5.07452343748348
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 897 loss train = 5.202936064388367
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 898 loss train = 5.228951504907079
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 899 loss train = 5.327835998675523
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 900 loss train = 5.694452569226031
+logged it=900 train_loss=6.049830265977488
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 901 loss train = 5.456008603270658
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 902 loss train = 5.646405017337637
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 903 loss train = 5.665808035205863
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 904 loss train = 5.252716697116568
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 905 loss train = 5.5774062512236355
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 906 loss train = 5.431451812032436
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 907 loss train = 5.5864385976168895
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 908 loss train = 5.521901723404692
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 909 loss train = 5.722729270084395
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 910 loss train = 5.75301604481742
+logged it=910 train_loss=6.044462770804231
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 911 loss train = 5.736202333227911
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 912 loss train = 5.5938720856143425
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 913 loss train = 5.845581068013176
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 914 loss train = 5.802219238887975
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 915 loss train = 5.514534983219038
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 916 loss train = 5.624172839788348
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 917 loss train = 5.881549924206938
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 918 loss train = 5.40194926374915
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 919 loss train = 6.209358565997946
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 920 loss train = 5.781490139015161
+logged it=920 train_loss=6.041143534645185
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 921 loss train = 5.466506438031329
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 922 loss train = 5.697513838750446
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 923 loss train = 5.996401274244113
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 924 loss train = 5.996023018789011
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 925 loss train = 5.862308035611464
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 926 loss train = 5.794480917283125
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 927 loss train = 6.187595900467516
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 928 loss train = 5.855223646942895
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 929 loss train = 6.034707599025156
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 930 loss train = 6.076004887367269
+logged it=930 train_loss=6.039590126268905
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 931 loss train = 6.392658396546013
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 932 loss train = 5.69564073058207
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 933 loss train = 5.868233084397023
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 934 loss train = 6.219204453085334
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 935 loss train = 6.2025424701930145
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 936 loss train = 5.8382484733648266
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 937 loss train = 6.145416411842736
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 938 loss train = 5.879998578546436
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 939 loss train = 5.8975276501434495
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 940 loss train = 5.998124527030007
+logged it=940 train_loss=6.039315332133844
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 941 loss train = 6.155177851827454
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 942 loss train = 6.415744313438038
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 943 loss train = 6.043609219630513
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 944 loss train = 6.1061262762014294
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 945 loss train = 5.889445220605483
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 946 loss train = 6.047823627305891
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 947 loss train = 5.8985187779468635
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 948 loss train = 5.673558116655167
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 949 loss train = 6.08221189648221
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 950 loss train = 6.193802140207848
+logged it=950 train_loss=6.039434136469595
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 951 loss train = 6.026968875554429
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 952 loss train = 6.590120206488927
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 953 loss train = 6.051452180155901
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 954 loss train = 6.130471412151224
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 955 loss train = 6.405968065845344
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 956 loss train = 6.100148232460277
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 957 loss train = 6.113052929497564
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 958 loss train = 6.151884805988097
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 959 loss train = 6.001313011033342
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 960 loss train = 6.18186514862405
+logged it=960 train_loss=6.040849660951994
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 961 loss train = 5.883202042285599
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 962 loss train = 6.628943302394053
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 963 loss train = 6.262192345603008
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 964 loss train = 6.467573582745088
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 965 loss train = 6.994096694612827
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 966 loss train = 6.810507846458646
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 967 loss train = 6.433344974686984
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 968 loss train = 6.693767497801599
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 969 loss train = 6.513061312245068
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 970 loss train = 6.843737239582926
+logged it=970 train_loss=6.046130001394155
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 971 loss train = 6.847702249589195
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 972 loss train = 7.081054255687515
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 973 loss train = 6.202473335084988
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 974 loss train = 6.1419621711483465
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 975 loss train = 6.755417949225153
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 976 loss train = 7.121755758417793
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 977 loss train = 6.78410170840206
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 978 loss train = 6.833531540700668
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 979 loss train = 6.6484323263844605
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 980 loss train = 7.016966743443044
+logged it=980 train_loss=6.053244387133074
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 981 loss train = 7.072379232792015
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 982 loss train = 6.667313393489627
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 983 loss train = 6.609948822318547
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 984 loss train = 6.675199156669285
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 985 loss train = 6.7629375477927525
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 986 loss train = 6.910490173832575
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 987 loss train = 6.987880198294884
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 988 loss train = 7.365875836102737
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 989 loss train = 6.567969391071643
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 990 loss train = 7.040939739976633
+logged it=990 train_loss=6.0614549827098525
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 991 loss train = 7.191898865113744
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 992 loss train = 6.600649319739235
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 993 loss train = 6.754090183939261
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 994 loss train = 6.865854656631257
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 995 loss train = 7.282155237766499
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 996 loss train = 6.767758735970253
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 997 loss train = 6.763983945228884
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 998 loss train = 6.536996851636185
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 999 loss train = 6.4721111921871355
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1000 loss train = 6.574583329202658
+logged it=1000 train_loss=6.0686505152001695
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1001 loss train = 5.354656692824776
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1002 loss train = 5.866795377612712
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1003 loss train = 5.36074686980263
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1004 loss train = 5.218490231821344
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1005 loss train = 6.043673226534504
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1006 loss train = 5.392300384663483
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1007 loss train = 5.638345162518235
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1008 loss train = 6.041442397419878
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1009 loss train = 5.635866946989262
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1010 loss train = 5.616784331984119
+logged it=1010 train_loss=6.06417783843796
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1011 loss train = 5.722488091553153
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1012 loss train = 5.725617529770251
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1013 loss train = 6.182565903950719
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1014 loss train = 5.69030802668711
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1015 loss train = 5.595870244935035
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1016 loss train = 5.994861188579607
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1017 loss train = 5.325885126437429
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1018 loss train = 5.540405737801037
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1019 loss train = 5.56575103401677
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1020 loss train = 6.071905944907483
+logged it=1020 train_loss=6.061014976128409
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1021 loss train = 5.6516281293491994
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1022 loss train = 5.7980084141968025
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1023 loss train = 5.819240187054885
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1024 loss train = 5.985251256351626
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1025 loss train = 4.980608370416331
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1026 loss train = 5.614595173327799
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1027 loss train = 6.249993230479622
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1028 loss train = 5.428755672353036
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1029 loss train = 5.677660906260249
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1030 loss train = 5.610300587666044
+logged it=1030 train_loss=6.057331376289739
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1031 loss train = 5.999585606669646
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1032 loss train = 6.139125206324955
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1033 loss train = 5.901679793095467
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1034 loss train = 5.324218281611576
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1035 loss train = 5.794555735286165
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1036 loss train = 6.046541131523753
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1037 loss train = 5.748145931672892
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1038 loss train = 5.951860419419166
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1039 loss train = 5.927718913081596
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1040 loss train = 5.91331255168806
+logged it=1040 train_loss=6.0555750587969275
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1041 loss train = 6.292833631941566
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1042 loss train = 6.150689843903007
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1043 loss train = 6.178224583540573
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1044 loss train = 5.478486118205233
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1045 loss train = 6.2039925520060395
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1046 loss train = 6.367810918745834
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1047 loss train = 5.816651687709921
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1048 loss train = 6.224007532912426
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1049 loss train = 5.854317243212412
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1050 loss train = 5.32425795689033
+logged it=1050 train_loss=6.05494222211226
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1051 loss train = 6.094601784460523
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1052 loss train = 6.366946984224189
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1053 loss train = 5.975847342737514
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1054 loss train = 6.013989854879329
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1055 loss train = 6.04361080389787
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1056 loss train = 6.372554525748688
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1057 loss train = 6.472460854089022
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1058 loss train = 6.324824743629642
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1059 loss train = 6.178503184910833
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1060 loss train = 6.206314905607055
+logged it=1060 train_loss=6.056357536039677
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1061 loss train = 6.150886473208367
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1062 loss train = 6.2548431739709445
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1063 loss train = 5.922982522590072
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1064 loss train = 6.556467403951465
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1065 loss train = 5.613168488997197
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1066 loss train = 6.391690818833695
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1067 loss train = 6.153124689805718
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1068 loss train = 6.303304588090617
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1069 loss train = 5.901600085451546
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1070 loss train = 5.797534881805822
+logged it=1070 train_loss=6.056808029279217
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1071 loss train = 6.361087046953583
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1072 loss train = 5.877491150568486
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1073 loss train = 6.320669632154709
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1074 loss train = 6.129278581838234
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1075 loss train = 6.432891392852668
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1076 loss train = 6.235961866039587
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1077 loss train = 5.9266500286807595
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1078 loss train = 6.236568298297822
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1079 loss train = 6.090090248900401
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1080 loss train = 6.693724164894502
+logged it=1080 train_loss=6.058415744203652
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1081 loss train = 6.106671941554065
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1082 loss train = 5.985931130997414
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1083 loss train = 6.059906513930221
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1084 loss train = 6.106040967492087
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1085 loss train = 5.8805811077593395
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1086 loss train = 6.538819112810501
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1087 loss train = 6.016024476912091
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1088 loss train = 6.333129714227047
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1089 loss train = 6.29206862286827
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1090 loss train = 6.492410962574161
+logged it=1090 train_loss=6.059541824120246
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1091 loss train = 6.09725864141177
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1092 loss train = 6.676614020532625
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1093 loss train = 6.40696571001758
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1094 loss train = 5.955206074658968
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1095 loss train = 6.143322070446803
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1096 loss train = 6.062938604234561
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1097 loss train = 6.135774403266566
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1098 loss train = 6.158069519110426
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1099 loss train = 5.954509193177792
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1100 loss train = 6.477981282236971
+logged it=1100 train_loss=6.060881116191057
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1101 loss train = 5.982684965589173
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1102 loss train = 6.255701049821847
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1103 loss train = 5.963913383615004
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1104 loss train = 6.393972003210035
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1105 loss train = 5.7676204626546586
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1106 loss train = 6.499811819430747
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1107 loss train = 6.022806125571607
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1108 loss train = 5.928274862340861
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1109 loss train = 6.3095297570279
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1110 loss train = 6.107275894223315
+logged it=1110 train_loss=6.061442178498784
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1111 loss train = 6.15707229731008
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1112 loss train = 6.204553837873762
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1113 loss train = 6.151835129495595
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1114 loss train = 5.92709795949548
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1115 loss train = 7.082902749198915
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1116 loss train = 6.250896233920225
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1117 loss train = 6.318576407989178
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1118 loss train = 6.8190038898161625
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1119 loss train = 6.562359225600933
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1120 loss train = 6.248904785511341
+logged it=1120 train_loss=6.064217875580233
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1121 loss train = 6.718465283912136
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1122 loss train = 6.306738481701199
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1123 loss train = 6.18634483342978
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1124 loss train = 6.191154099609589
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1125 loss train = 6.4438568408968795
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1126 loss train = 6.018356763094352
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1127 loss train = 6.236753314400068
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1128 loss train = 6.75058571400726
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1129 loss train = 6.585880616497528
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1130 loss train = 6.381139894206675
+logged it=1130 train_loss=6.067029465921786
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1131 loss train = 6.4459182621444215
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1132 loss train = 6.504933550178714
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1133 loss train = 6.173253604311775
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1134 loss train = 6.809373165793834
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1135 loss train = 6.2815865482373905
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1136 loss train = 6.8084510424231075
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1137 loss train = 6.660099566118624
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1138 loss train = 6.855129945290292
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1139 loss train = 6.827181969421959
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1140 loss train = 6.555086534939303
+logged it=1140 train_loss=6.071635360246033
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1141 loss train = 6.1534903807118955
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1142 loss train = 6.763019071045737
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1143 loss train = 6.311796649124659
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1144 loss train = 6.3292813311840606
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1145 loss train = 5.969388960295107
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1146 loss train = 6.290576894441986
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1147 loss train = 6.606462576575469
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1148 loss train = 6.298252213762222
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1149 loss train = 6.395557766174559
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1150 loss train = 6.316646602371945
+logged it=1150 train_loss=6.0739989418488385
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1151 loss train = 6.5713339021577495
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1152 loss train = 6.289869526981685
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1153 loss train = 6.254000336413203
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1154 loss train = 6.732312889733694
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1155 loss train = 6.394422827837489
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1156 loss train = 6.336931150539066
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1157 loss train = 6.846810985435115
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1158 loss train = 6.199923696459415
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1159 loss train = 6.32314123154894
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1160 loss train = 6.398951575727367
+logged it=1160 train_loss=6.077109035559481
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1161 loss train = 6.738895637352292
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1162 loss train = 6.306988819848218
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1163 loss train = 6.442417043814906
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1164 loss train = 6.255567437246675
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1165 loss train = 6.192787222276281
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1166 loss train = 6.281382980907033
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1167 loss train = 6.447398185039914
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1168 loss train = 5.984233757194616
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1169 loss train = 5.600904546659463
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1170 loss train = 5.9431736771083274
+logged it=1170 train_loss=6.078324983381578
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1171 loss train = 6.087776054885665
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1172 loss train = 5.885917782271175
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1173 loss train = 5.718842207102731
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1174 loss train = 6.1753391775726
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1175 loss train = 5.873044340397845
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1176 loss train = 6.075642421577887
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1177 loss train = 5.880689631640925
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1178 loss train = 5.94625276692672
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1179 loss train = 5.771307523632729
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1180 loss train = 5.6786988199927775
+logged it=1180 train_loss=6.07689300108682
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1181 loss train = 5.834418951247453
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1182 loss train = 5.986606871422078
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1183 loss train = 5.053847705983057
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1184 loss train = 6.344064246318209
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1185 loss train = 5.5679695807140925
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1186 loss train = 6.344118396839365
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1187 loss train = 6.082115405744505
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1188 loss train = 5.896128842615823
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1189 loss train = 5.422555087398793
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1190 loss train = 5.901525922094508
+logged it=1190 train_loss=6.074930329657836
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1191 loss train = 6.1161693077217025
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1192 loss train = 6.187130572804592
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1193 loss train = 5.7699390178476895
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1194 loss train = 5.5244181108235875
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1195 loss train = 5.818111434299438
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1196 loss train = 5.311599389375314
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1197 loss train = 5.393167500635156
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1198 loss train = 5.306817249676106
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1199 loss train = 5.74192421445058
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1200 loss train = 5.834816792415527
+logged it=1200 train_loss=6.071809321569063
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1201 loss train = 6.086551015867858
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1202 loss train = 5.971813551846274
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1203 loss train = 5.876277822963649
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1204 loss train = 5.83032402153264
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1205 loss train = 5.586118841952776
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1206 loss train = 5.417207747825554
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1207 loss train = 5.4902170966957184
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1208 loss train = 5.454829120219642
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1209 loss train = 5.719566926029399
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1210 loss train = 5.012552251778836
+logged it=1210 train_loss=6.068278218412884
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1211 loss train = 5.778737418556224
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1212 loss train = 5.351556636158564
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1213 loss train = 5.7842740913296256
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1214 loss train = 5.53522910115796
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1215 loss train = 5.413575933309124
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1216 loss train = 5.287432534281542
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1217 loss train = 5.385953739481623
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1218 loss train = 5.617547814745748
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1219 loss train = 4.854760048407096
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1220 loss train = 5.7297244030376016
+logged it=1220 train_loss=6.063406095082012
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1221 loss train = 4.88192894058348
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1222 loss train = 5.634382301328361
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1223 loss train = 5.42154731416891
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1224 loss train = 5.606316056598575
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1225 loss train = 5.501635011016797
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1226 loss train = 5.963115899288121
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1227 loss train = 5.849452491896955
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1228 loss train = 5.197878849938093
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1229 loss train = 5.516116782035056
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1230 loss train = 5.751979485392773
+logged it=1230 train_loss=6.059089259457156
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1231 loss train = 5.3611785273086845
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1232 loss train = 5.9811842895954666
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1233 loss train = 5.527126904639191
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1234 loss train = 5.880343005945211
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1235 loss train = 5.427442575676411
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1236 loss train = 5.19119275711357
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1237 loss train = 5.634562629556727
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1238 loss train = 5.328767653399917
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1239 loss train = 5.819955967857888
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1240 loss train = 5.891756094661068
+logged it=1240 train_loss=6.0554220157564975
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1241 loss train = 5.434316969431986
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1242 loss train = 6.074613766886919
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1243 loss train = 5.271831274214562
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1244 loss train = 5.176549718001285
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1245 loss train = 5.314986306717889
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1246 loss train = 5.888612879674156
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1247 loss train = 5.850255019857474
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1248 loss train = 5.806165264942605
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1249 loss train = 5.695557821400335
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1250 loss train = 5.654651067571231
+logged it=1250 train_loss=6.0519126717014045
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1251 loss train = 5.210751728716767
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1252 loss train = 5.834704193407444
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1253 loss train = 5.851264669087684
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1254 loss train = 5.030496657815451
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1255 loss train = 5.627726188694396
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1256 loss train = 5.783349829051907
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1257 loss train = 5.397014715585112
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1258 loss train = 5.394965159978881
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1259 loss train = 5.76657912223261
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1260 loss train = 5.709943081280586
+logged it=1260 train_loss=6.048013996010004
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1261 loss train = 5.912137676328599
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1262 loss train = 5.61344818202701
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1263 loss train = 5.504908109103966
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1264 loss train = 6.005630017266047
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1265 loss train = 5.511320656895446
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1266 loss train = 5.851148669216742
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1267 loss train = 5.808782046436061
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1268 loss train = 5.63641312062947
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1269 loss train = 6.3075596641562095
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1270 loss train = 6.480899364755265
+logged it=1270 train_loss=6.046558962582222
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1271 loss train = 6.306606179196618
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1272 loss train = 6.288931382540299
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1273 loss train = 6.0824061993602605
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1274 loss train = 6.545067390617997
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1275 loss train = 6.4815888334629745
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1276 loss train = 6.862374815867935
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1277 loss train = 6.066869109120019
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1278 loss train = 6.601940481729415
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1279 loss train = 6.497095333025303
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1280 loss train = 6.60863515505756
+logged it=1280 train_loss=6.049587029187032
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1281 loss train = 6.63087636001704
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1282 loss train = 6.326559730535406
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1283 loss train = 6.841735871532913
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1284 loss train = 6.517067994660486
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1285 loss train = 6.902795182132045
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1286 loss train = 6.87344196066841
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1287 loss train = 7.3181939418261654
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1288 loss train = 7.141887551592557
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1289 loss train = 7.135554687937246
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1290 loss train = 7.0053524124736875
+logged it=1290 train_loss=6.055941754304478
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1291 loss train = 7.127719335072406
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1292 loss train = 6.567041517331975
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1293 loss train = 7.212500840502743
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1294 loss train = 7.4664665264109
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1295 loss train = 7.191839884627039
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1296 loss train = 7.046728980000199
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1297 loss train = 7.004936804846781
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1298 loss train = 7.05258004512898
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1299 loss train = 7.3689276297568655
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1300 loss train = 7.401101377457043
+logged it=1300 train_loss=6.064311312303009
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1301 loss train = 7.427619449409531
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1302 loss train = 7.3044610045686955
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1303 loss train = 7.327849758256165
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1304 loss train = 7.486021247458249
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1305 loss train = 7.199274857683659
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1306 loss train = 7.612467692645471
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1307 loss train = 7.544645967058826
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1308 loss train = 7.533640399076412
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1309 loss train = 7.678640786195972
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1310 loss train = 7.834088080110946
+logged it=1310 train_loss=6.075231614684257
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1311 loss train = 7.420964395354258
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1312 loss train = 7.604614019511415
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1313 loss train = 6.534094153951943
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1314 loss train = 6.827060384843315
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1315 loss train = 6.347694091121408
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1316 loss train = 7.215042888651017
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1317 loss train = 7.033335799142543
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1318 loss train = 7.391139328818245
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1319 loss train = 6.792363186697968
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1320 loss train = 7.17730336246735
+logged it=1320 train_loss=6.082497747611315
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1321 loss train = 7.1907203699227615
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1322 loss train = 7.190321451264787
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1323 loss train = 7.2226912300069905
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1324 loss train = 7.665487793638902
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1325 loss train = 7.267653643516162
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1326 loss train = 6.941476759184942
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1327 loss train = 7.019601498053691
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1328 loss train = 6.436730551147374
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1329 loss train = 6.583286495476246
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1330 loss train = 6.522995926907267
+logged it=1330 train_loss=6.089427062079741
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1331 loss train = 7.049852344069558
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1332 loss train = 6.635752828858892
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1333 loss train = 6.42701147744327
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1334 loss train = 6.442168131605685
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1335 loss train = 6.960613790799013
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1336 loss train = 6.373705524159534
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1337 loss train = 6.628742606092846
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1338 loss train = 6.287444477560459
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1339 loss train = 6.641335523179545
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1340 loss train = 5.737773956802919
+logged it=1340 train_loss=6.092628651661662
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1341 loss train = 6.599930299581749
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1342 loss train = 6.3428401565848604
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1343 loss train = 6.5013519425788635
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1344 loss train = 6.655011781767956
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1345 loss train = 6.660267712781483
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1346 loss train = 6.313198884906127
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1347 loss train = 6.109502480688905
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1348 loss train = 6.491119255880661
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1349 loss train = 6.841319991902742
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1350 loss train = 6.092327204589046
+logged it=1350 train_loss=6.095355009583623
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1351 loss train = 6.338221591519386
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1352 loss train = 6.51451692653473
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1353 loss train = 6.303177820526692
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1354 loss train = 6.115058962457241
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1355 loss train = 6.0305351871787565
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1356 loss train = 6.286085365312838
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1357 loss train = 6.315921974546524
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1358 loss train = 6.298187879650916
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1359 loss train = 6.323231804769772
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1360 loss train = 5.906644137451418
+logged it=1360 train_loss=6.0964417974910585
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1361 loss train = 6.516177538515546
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1362 loss train = 6.157576639052699
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1363 loss train = 5.673359752756644
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1364 loss train = 5.9020704496961605
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1365 loss train = 5.774682527832496
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1366 loss train = 5.80018047284747
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1367 loss train = 6.0309058144668
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1368 loss train = 5.9164878426352985
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1369 loss train = 5.643347235086859
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1370 loss train = 5.735837759190537
+logged it=1370 train_loss=6.095117861766363
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1371 loss train = 5.771913645273765
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1372 loss train = 5.8796584408259465
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1373 loss train = 5.958337316559384
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1374 loss train = 6.025348262499174
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1375 loss train = 5.569826809866565
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1376 loss train = 5.81375777654578
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1377 loss train = 6.141816266140459
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1378 loss train = 5.461227125335574
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1379 loss train = 5.67890044643892
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1380 loss train = 5.74843164940965
+logged it=1380 train_loss=6.093014991564359
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1381 loss train = 6.00366294509
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1382 loss train = 6.116423214972682
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1383 loss train = 6.135041272642708
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1384 loss train = 5.804866629625468
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1385 loss train = 5.757623940700464
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1386 loss train = 5.595298855862004
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1387 loss train = 5.940829698657649
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1388 loss train = 5.726559708538612
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1389 loss train = 5.958665105411175
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1390 loss train = 5.418934466859976
+logged it=1390 train_loss=6.091236398703003
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1391 loss train = 5.81996475337892
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1392 loss train = 5.699231738794669
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1393 loss train = 5.567014726285542
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1394 loss train = 5.3456377393145
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1395 loss train = 5.33356132740921
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1396 loss train = 5.817713674811474
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1397 loss train = 5.685061749460519
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1398 loss train = 5.295189113574648
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1399 loss train = 5.2211758723833706
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1400 loss train = 5.512526806957428
+logged it=1400 train_loss=6.0872254797853875
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1401 loss train = 5.588855985701322
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1402 loss train = 5.73109443934933
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1403 loss train = 5.2915243645524725
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1404 loss train = 5.442238920659073
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1405 loss train = 5.939998021583481
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1406 loss train = 5.616977612527623
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1407 loss train = 5.70838782646944
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1408 loss train = 5.53349216893209
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1409 loss train = 5.40943279217795
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1410 loss train = 5.046110023377211
+logged it=1410 train_loss=6.083279279329696
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1411 loss train = 6.085884397467883
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1412 loss train = 5.44506112071299
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1413 loss train = 5.210332961719121
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1414 loss train = 4.955697584100658
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1415 loss train = 5.134937743107254
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1416 loss train = 5.274088651396118
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1417 loss train = 5.137900854362456
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1418 loss train = 5.411079374269434
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1419 loss train = 5.729121348209776
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1420 loss train = 5.604439099081956
+logged it=1420 train_loss=6.078459385203732
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1421 loss train = 6.0296377112945585
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1422 loss train = 5.178740574768118
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1423 loss train = 5.167402050127863
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1424 loss train = 5.329867038579633
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1425 loss train = 5.565453781596547
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1426 loss train = 5.502523882475615
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1427 loss train = 5.793483221852369
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1428 loss train = 5.280809797700731
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1429 loss train = 5.353194004370792
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1430 loss train = 5.217065589040756
+logged it=1430 train_loss=6.0740073459028725
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1431 loss train = 5.836820222737544
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1432 loss train = 4.7935207717239185
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1433 loss train = 5.288534276800478
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1434 loss train = 5.438109135506074
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1435 loss train = 5.30976833086381
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1436 loss train = 5.380953394881336
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1437 loss train = 5.209342509438827
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1438 loss train = 5.3807368697120985
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1439 loss train = 4.8613666830471285
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1440 loss train = 5.308691591074117
+logged it=1440 train_loss=6.068498853074232
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1441 loss train = 4.925245803940009
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1442 loss train = 4.922307059060935
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1443 loss train = 5.589275623972746
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1444 loss train = 4.917493934712067
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1445 loss train = 5.461628559177208
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1446 loss train = 5.037934519227864
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1447 loss train = 5.5241944015557145
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1448 loss train = 5.2306216549985445
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1449 loss train = 5.630210961993863
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1450 loss train = 5.3929072607545985
+logged it=1450 train_loss=6.0629449435905425
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1451 loss train = 5.073705473177746
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1452 loss train = 5.271283408771977
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1453 loss train = 5.037038011958453
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1454 loss train = 5.0495648632001435
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1455 loss train = 5.313138165210709
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1456 loss train = 5.610027325218003
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1457 loss train = 5.686630510334891
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1458 loss train = 5.329182821040618
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1459 loss train = 5.719716521597767
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1460 loss train = 4.910946351193552
+logged it=1460 train_loss=6.057720138121913
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1461 loss train = 5.5377340631824765
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1462 loss train = 4.717626763477529
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1463 loss train = 5.159730143142414
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1464 loss train = 5.0967399874619135
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1465 loss train = 5.214630065812504
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1466 loss train = 5.416454472481503
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1467 loss train = 5.596578886904327
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1468 loss train = 5.530545025850848
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1469 loss train = 5.705482623278909
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1470 loss train = 5.561897277742471
+logged it=1470 train_loss=6.052931170726073
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1471 loss train = 5.706076929412745
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1472 loss train = 5.173842800681099
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1473 loss train = 5.671877880112235
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1474 loss train = 5.791741376024527
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1475 loss train = 5.235064500909461
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1476 loss train = 5.041996186087928
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1477 loss train = 5.790693796727604
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1478 loss train = 4.967361283261383
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1479 loss train = 6.022522717414803
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1480 loss train = 5.296112594685644
+logged it=1480 train_loss=6.048990615562597
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1481 loss train = 5.500791356346164
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1482 loss train = 5.621122570851842
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1483 loss train = 5.340026114483745
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1484 loss train = 5.243610036743712
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1485 loss train = 5.5241236821882795
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1486 loss train = 4.910579420371223
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1487 loss train = 5.295474592849162
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1488 loss train = 5.12466165208744
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1489 loss train = 5.200324419158558
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1490 loss train = 5.2102706488673
+logged it=1490 train_loss=6.043944359413819
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1491 loss train = 5.309149653150716
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1492 loss train = 5.490999116567556
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1493 loss train = 5.408890196163501
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1494 loss train = 5.638533035272875
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1495 loss train = 5.659200680257626
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1496 loss train = 5.085687289285598
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1497 loss train = 5.158584258921299
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1498 loss train = 5.387777558104211
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1499 loss train = 5.570786425488818
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1500 loss train = 5.816569589033878
+logged it=1500 train_loss=6.040002182219226
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1501 loss train = 5.673105552384571
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1502 loss train = 5.932816562151172
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1503 loss train = 5.250165533066513
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1504 loss train = 5.83807518355566
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1505 loss train = 5.7523346948206235
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1506 loss train = 5.609994718743292
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1507 loss train = 5.136300566196212
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1508 loss train = 5.743258154318295
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1509 loss train = 6.066458914410596
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1510 loss train = 6.186380143566596
+logged it=1510 train_loss=6.03787560486891
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1511 loss train = 6.459369516092471
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1512 loss train = 5.747553311440215
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1513 loss train = 6.001793780161143
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1514 loss train = 5.879049772949523
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1515 loss train = 6.6575184431140135
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1516 loss train = 5.899306450289057
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1517 loss train = 5.940136558989451
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1518 loss train = 6.0375295827819135
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1519 loss train = 6.030998177134814
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1520 loss train = 6.287040684873528
+logged it=1520 train_loss=6.038245039230184
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1521 loss train = 5.793142590505371
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1522 loss train = 6.53671521402174
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1523 loss train = 6.668520718404896
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1524 loss train = 6.674270992709241
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1525 loss train = 6.319519968303069
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1526 loss train = 6.129800419099639
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1527 loss train = 6.189207044376468
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1528 loss train = 6.772841381144046
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1529 loss train = 6.155530530171117
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1530 loss train = 5.684917721789637
+logged it=1530 train_loss=6.039906487719222
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1531 loss train = 6.044056309932693
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1532 loss train = 6.8508496166172055
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1533 loss train = 6.148018275110607
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1534 loss train = 6.027818474789066
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1535 loss train = 6.477607894381315
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1536 loss train = 6.1245115934133505
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1537 loss train = 6.51569087851078
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1538 loss train = 6.336796156375785
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1539 loss train = 7.081792315219886
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1540 loss train = 7.4204775140876755
+logged it=1540 train_loss=6.042912042362888
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1541 loss train = 6.030352377897972
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1542 loss train = 6.011369439656246
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1543 loss train = 6.240058433812793
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1544 loss train = 6.5085979271134216
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1545 loss train = 6.5546015172725385
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1546 loss train = 6.333671568378639
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1547 loss train = 6.321494910299329
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1548 loss train = 6.508307815708708
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1549 loss train = 6.719327553010927
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1550 loss train = 6.759778712141418
+logged it=1550 train_loss=6.04520780999622
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1551 loss train = 6.686961425811448
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1552 loss train = 6.130235461076711
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1553 loss train = 7.0180105550289555
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1554 loss train = 6.445199951377112
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1555 loss train = 6.2504300606110075
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1556 loss train = 6.499829178318882
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1557 loss train = 6.709854804945717
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1558 loss train = 6.095289846725956
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1559 loss train = 6.456653271536535
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1560 loss train = 6.459700065299057
+logged it=1560 train_loss=6.047964275714661
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1561 loss train = 6.589162904668482
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1562 loss train = 6.736507582680498
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1563 loss train = 5.744852700908579
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1564 loss train = 7.187781998409178
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1565 loss train = 6.803170972768451
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1566 loss train = 6.142763661982411
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1567 loss train = 6.7252244948693765
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1568 loss train = 6.499841774050321
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1569 loss train = 6.842024454483828
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1570 loss train = 6.756504381419203
+logged it=1570 train_loss=6.051498156077142
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1571 loss train = 5.749308727001036
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1572 loss train = 6.5726836732509355
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1573 loss train = 6.786057439248994
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1574 loss train = 6.70338630895585
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1575 loss train = 6.587918205874302
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1576 loss train = 7.366910085755911
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1577 loss train = 7.644364538075307
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1578 loss train = 6.886484362845388
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1579 loss train = 6.618621830235372
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1580 loss train = 6.979958697080855
+logged it=1580 train_loss=6.056169492980655
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1581 loss train = 7.8762066923185285
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1582 loss train = 6.898973405075798
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1583 loss train = 7.263528148876531
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1584 loss train = 7.306508742757351
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1585 loss train = 7.270522722316058
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1586 loss train = 7.503031554886369
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1587 loss train = 7.295479560033564
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1588 loss train = 7.950824947951912
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1589 loss train = 7.525224922503173
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1590 loss train = 6.87690815126175
+logged it=1590 train_loss=6.064474847646173
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1591 loss train = 6.982332847039977
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1592 loss train = 6.703068586724231
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1593 loss train = 7.160853169887859
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1594 loss train = 7.7711638997868775
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1595 loss train = 8.002222763305246
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1596 loss train = 6.963442491784905
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1597 loss train = 7.772138583027792
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1598 loss train = 7.737129431813256
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1599 loss train = 6.868533878160204
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1600 loss train = 7.192296152001588
+logged it=1600 train_loss=6.072292618475591
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1601 loss train = 6.971121339955627
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1602 loss train = 6.998526444801975
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1603 loss train = 6.825910853684171
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1604 loss train = 7.249458886955579
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1605 loss train = 6.9442113829226635
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1606 loss train = 7.594739266648981
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1607 loss train = 7.069291962703263
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1608 loss train = 7.498422575965121
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1609 loss train = 6.530234984993003
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1610 loss train = 7.10165192206564
+logged it=1610 train_loss=6.078541465330212
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1611 loss train = 7.564064039460813
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1612 loss train = 6.641577821951472
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1613 loss train = 6.638631376839212
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1614 loss train = 7.272688118384684
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1615 loss train = 7.1540119437088245
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1616 loss train = 6.9270976206802946
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1617 loss train = 6.81950517054786
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1618 loss train = 6.627947909762973
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1619 loss train = 6.696882737320107
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1620 loss train = 6.50268503170451
+logged it=1620 train_loss=6.08351657466173
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1621 loss train = 6.357385036109518
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1622 loss train = 7.036914277429502
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1623 loss train = 7.266795945870152
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1624 loss train = 6.875078494480264
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1625 loss train = 6.498214672126703
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1626 loss train = 7.956294786448039
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1627 loss train = 6.804961168135964
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1628 loss train = 7.2838160276164405
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1629 loss train = 7.2219694755784145
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1630 loss train = 6.567877322675763
+logged it=1630 train_loss=6.089058992735262
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1631 loss train = 7.155626799234677
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1632 loss train = 7.0441921859557315
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1633 loss train = 6.595151794309733
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1634 loss train = 7.0490846366425055
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1635 loss train = 6.557397208032928
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1636 loss train = 7.146830285380801
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1637 loss train = 6.326328952643357
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1638 loss train = 6.9785539185798635
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1639 loss train = 6.944159244269323
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1640 loss train = 7.295617427365761
+logged it=1640 train_loss=6.0940604272017636
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1641 loss train = 6.15323149826753
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1642 loss train = 7.0445742876600415
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1643 loss train = 6.621640035870855
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1644 loss train = 7.131572660998099
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1645 loss train = 7.093794247183882
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1646 loss train = 7.124361766746198
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1647 loss train = 6.740890359385728
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1648 loss train = 6.4860055443483775
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1649 loss train = 6.734654639162936
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1650 loss train = 6.586244423436171
+logged it=1650 train_loss=6.098167315196334
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1651 loss train = 6.536587811775411
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1652 loss train = 6.86153909772076
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1653 loss train = 6.736424517013692
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1654 loss train = 6.466263179962234
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1655 loss train = 6.60170384298058
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1656 loss train = 6.634339843930523
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1657 loss train = 6.696456272467636
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1658 loss train = 6.339422457684716
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1659 loss train = 6.57990359988196
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1660 loss train = 6.539821434790761
+logged it=1660 train_loss=6.101185862730218
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1661 loss train = 6.940309002770614
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1662 loss train = 6.5362674576578685
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1663 loss train = 6.969087117587924
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1664 loss train = 7.007289677427504
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1665 loss train = 6.002214297139722
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1666 loss train = 6.145187688390772
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1667 loss train = 6.5389324608483035
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1668 loss train = 6.469897092461684
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1669 loss train = 7.662232573801486
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1670 loss train = 7.579031828158107
+logged it=1670 train_loss=6.105280827142756
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1671 loss train = 7.079053676943553
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1672 loss train = 6.69898602702685
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1673 loss train = 6.469305825788598
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1674 loss train = 6.495507623638862
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1675 loss train = 6.555571708952413
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1676 loss train = 6.574177149989939
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1677 loss train = 5.613171059284617
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1678 loss train = 6.174897204932874
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1679 loss train = 6.208058358453457
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1680 loss train = 6.203301956346548
+logged it=1680 train_loss=6.1070779832855715
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1681 loss train = 5.717681873273093
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1682 loss train = 5.770386889726533
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1683 loss train = 6.210869634080373
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1684 loss train = 5.891415950242059
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1685 loss train = 6.537464851574843
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1686 loss train = 6.000300472792142
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1687 loss train = 6.130975695491119
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1688 loss train = 6.1019973970044195
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1689 loss train = 5.388941601240708
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1690 loss train = 5.3168506393354615
+logged it=1690 train_loss=6.1058922467009005
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1691 loss train = 6.756710362154668
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1692 loss train = 6.366534297195793
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1693 loss train = 5.697625591547626
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1694 loss train = 6.455377405468354
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1695 loss train = 6.43402552262348
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1696 loss train = 5.719354526104795
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1697 loss train = 5.782413862569488
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1698 loss train = 5.884258767449834
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1699 loss train = 5.916807220912735
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1700 loss train = 5.773218043978497
+logged it=1700 train_loss=6.105731895602662
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1701 loss train = 5.764290146644227
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1702 loss train = 5.9597715664397635
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1703 loss train = 5.7929294474682935
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1704 loss train = 5.97853701046085
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1705 loss train = 5.788930197198593
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1706 loss train = 5.357725962620553
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1707 loss train = 5.730406558022469
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1708 loss train = 6.140658635244118
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1709 loss train = 5.69128312739442
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1710 loss train = 5.962240679882911
+logged it=1710 train_loss=6.104041518044387
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1711 loss train = 6.224390698996176
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1712 loss train = 6.135024207599908
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1713 loss train = 5.4670391650213395
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1714 loss train = 5.220339360584756
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1715 loss train = 6.193212588761784
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1716 loss train = 6.200247376401206
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1717 loss train = 5.6415451418534
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1718 loss train = 5.612334369316449
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1719 loss train = 5.629356486315537
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1720 loss train = 5.760860620527604
+logged it=1720 train_loss=6.102322875506559
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1721 loss train = 5.7256865198960964
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1722 loss train = 5.486685463893634
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1723 loss train = 5.528849377925879
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1724 loss train = 5.604252909559218
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1725 loss train = 5.508876210677488
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1726 loss train = 5.628183166363103
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1727 loss train = 5.1762326140604795
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1728 loss train = 6.116662192087455
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1729 loss train = 5.528878418033239
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1730 loss train = 6.499244253984141
+logged it=1730 train_loss=6.099883755490035
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1731 loss train = 5.321861385126717
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1732 loss train = 5.666048016841482
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1733 loss train = 5.41612017285326
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1734 loss train = 6.304636039452926
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1735 loss train = 5.463605464754261
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1736 loss train = 5.682193098359467
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1737 loss train = 5.506788652962426
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1738 loss train = 5.429454533755384
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1739 loss train = 5.793761506522151
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1740 loss train = 5.588442151793526
+logged it=1740 train_loss=6.097110234494357
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1741 loss train = 5.983164983779378
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1742 loss train = 5.475905544367374
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1743 loss train = 5.2016662860109015
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1744 loss train = 5.448651589884252
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1745 loss train = 6.028648953922877
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1746 loss train = 5.844432027475146
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1747 loss train = 5.306421120300884
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1748 loss train = 6.3520813830672465
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1749 loss train = 5.838333097132685
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1750 loss train = 5.4756113831731525
+logged it=1750 train_loss=6.0948152710795975
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1751 loss train = 5.732888702478677
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1752 loss train = 5.897554465735714
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1753 loss train = 5.231391170010891
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1754 loss train = 5.9026198198653645
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1755 loss train = 5.775405364823649
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1756 loss train = 5.503864677048546
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1757 loss train = 6.018562109530788
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1758 loss train = 5.676149032831363
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1759 loss train = 5.693515204914306
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1760 loss train = 6.093667957009093
+logged it=1760 train_loss=6.092870649371332
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1761 loss train = 5.999032189836076
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1762 loss train = 5.690739165480842
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1763 loss train = 5.471420291973926
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1764 loss train = 5.736942416534024
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1765 loss train = 5.834064289255563
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1766 loss train = 6.5770653782407855
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1767 loss train = 5.584768857498525
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1768 loss train = 5.956917122824952
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1769 loss train = 5.628407936201188
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1770 loss train = 5.964241457058872
+logged it=1770 train_loss=6.091466633897428
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1771 loss train = 5.892110498467481
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1772 loss train = 5.8961640041812595
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1773 loss train = 5.823023888258347
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1774 loss train = 5.4005461212968875
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1775 loss train = 5.882107153942017
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1776 loss train = 5.355013256825946
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1777 loss train = 6.081193031321429
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1778 loss train = 5.979222298581569
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1779 loss train = 5.304451727013216
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1780 loss train = 6.403245603526769
+logged it=1780 train_loss=6.08983877504599
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1781 loss train = 5.470282005365216
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1782 loss train = 5.670510677594461
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1783 loss train = 5.4457668959267584
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1784 loss train = 5.8405610727287325
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1785 loss train = 5.7286885588956045
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1786 loss train = 6.367453928761109
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1787 loss train = 6.185193375029105
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1788 loss train = 5.593113115371028
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1789 loss train = 5.777300300169393
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1790 loss train = 6.190450549990617
+logged it=1790 train_loss=6.088370022380837
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1791 loss train = 6.484993380297436
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1792 loss train = 5.868709775300249
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1793 loss train = 5.581608018386392
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1794 loss train = 6.0898478392231725
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1795 loss train = 5.920373411152043
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1796 loss train = 6.032283419517136
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1797 loss train = 5.990252331180149
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1798 loss train = 6.456326866699136
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1799 loss train = 6.340581149370241
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1800 loss train = 5.932597004601815
+logged it=1800 train_loss=6.088266618476347
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1801 loss train = 6.041909454500388
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1802 loss train = 4.997014808219722
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1803 loss train = 6.359221395593845
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1804 loss train = 5.75990281198553
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1805 loss train = 6.300494866630861
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1806 loss train = 5.923515713350098
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1807 loss train = 6.481704920017662
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1808 loss train = 5.968997193021047
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1809 loss train = 6.229349382849714
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1810 loss train = 6.377542511582685
+logged it=1810 train_loss=6.088021859842638
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1811 loss train = 6.323926847563138
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1812 loss train = 5.926147204097252
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1813 loss train = 5.624410099184502
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1814 loss train = 5.471659870591198
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1815 loss train = 5.513573755718311
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1816 loss train = 5.894430826925083
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1817 loss train = 5.675367681056418
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1818 loss train = 5.778840945814544
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1819 loss train = 6.4105000669477885
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1820 loss train = 5.9203845711681184
+logged it=1820 train_loss=6.08673560889244
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1821 loss train = 5.961731095698284
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1822 loss train = 6.1210312787745575
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1823 loss train = 5.632185520698133
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1824 loss train = 5.784454745487573
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1825 loss train = 5.888352717581058
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1826 loss train = 5.765954606453223
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1827 loss train = 5.946097355333147
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1828 loss train = 6.009120579975399
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1829 loss train = 6.047978765912482
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1830 loss train = 5.677156869688217
+logged it=1830 train_loss=6.085624520065489
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1831 loss train = 5.618426874777336
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1832 loss train = 5.762250889678274
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1833 loss train = 5.237329929816592
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1834 loss train = 6.06326914221428
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1835 loss train = 5.859228839301664
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1836 loss train = 5.793773169779605
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1837 loss train = 5.885004920107516
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1838 loss train = 5.472108586763329
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1839 loss train = 5.7432515118799685
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1840 loss train = 5.714006853541569
+logged it=1840 train_loss=6.08360952306397
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1841 loss train = 5.622829827652602
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1842 loss train = 5.283428082174018
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1843 loss train = 5.56339188725363
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1844 loss train = 5.6859117616135375
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1845 loss train = 6.09322101054273
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1846 loss train = 5.535388396780441
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1847 loss train = 6.103776918114933
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1848 loss train = 5.6501922530179165
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1849 loss train = 5.653981035876172
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1850 loss train = 5.646603222665987
+logged it=1850 train_loss=6.081448782072105
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1851 loss train = 5.5489745464592986
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1852 loss train = 5.246466748718447
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1853 loss train = 5.5286005677212025
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1854 loss train = 5.712118906176219
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1855 loss train = 6.026262644275923
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1856 loss train = 5.992615808195292
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1857 loss train = 5.315456223316954
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1858 loss train = 5.181142971283211
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1859 loss train = 5.155460183836857
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1860 loss train = 4.887104953280455
+logged it=1860 train_loss=6.078104543218633
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1861 loss train = 5.467164665307334
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1862 loss train = 5.640163045782879
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1863 loss train = 5.333901624444983
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1864 loss train = 5.383305795598171
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1865 loss train = 5.367553590721872
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1866 loss train = 5.681488287652951
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1867 loss train = 6.003513168572031
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1868 loss train = 5.858513425554217
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1869 loss train = 5.288192831083356
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1870 loss train = 5.276408714021257
+logged it=1870 train_loss=6.075173612585774
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1871 loss train = 4.9969869862028435
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1872 loss train = 5.181848686580022
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1873 loss train = 5.331233063085728
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1874 loss train = 5.2042632118067615
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1875 loss train = 5.019363863955955
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1876 loss train = 5.277399524485071
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1877 loss train = 5.635600944628458
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1878 loss train = 4.7335419091306035
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1879 loss train = 5.598288225416023
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1880 loss train = 4.9268360344961355
+logged it=1880 train_loss=6.070468094672969
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1881 loss train = 5.813253677381278
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1882 loss train = 5.423728587867518
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1883 loss train = 5.669447660860078
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1884 loss train = 5.4622509101072065
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1885 loss train = 5.420572614621779
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1886 loss train = 5.404213498844604
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1887 loss train = 5.199600404954811
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1888 loss train = 4.7655541250832245
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1889 loss train = 6.240735143924017
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1890 loss train = 5.149269170071916
+logged it=1890 train_loss=6.067210922634335
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1891 loss train = 5.447591162534083
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1892 loss train = 5.250340899802363
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1893 loss train = 5.756863856545863
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1894 loss train = 5.384417635011547
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1895 loss train = 5.060529177058562
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1896 loss train = 4.907421583481479
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1897 loss train = 5.646419414612216
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1898 loss train = 6.174687890068169
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1899 loss train = 5.346722654857192
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1900 loss train = 5.387538104032183
+logged it=1900 train_loss=6.063890092714157
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1901 loss train = 5.1253718722928046
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1902 loss train = 5.88923463422476
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1903 loss train = 5.727320953354842
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1904 loss train = 5.515359513060004
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1905 loss train = 5.843827585747567
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1906 loss train = 6.029152458738985
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1907 loss train = 5.471687928960135
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1908 loss train = 5.3408695023264805
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1909 loss train = 6.035066606246768
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1910 loss train = 5.885245053136475
+logged it=1910 train_loss=6.061913252494757
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1911 loss train = 5.8802103150289255
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1912 loss train = 5.590136674415179
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1913 loss train = 5.705746150042448
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1914 loss train = 5.798214190992986
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1915 loss train = 5.938595021079814
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1916 loss train = 5.045606305130585
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1917 loss train = 5.648031791500473
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1918 loss train = 5.9439562088823665
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1919 loss train = 5.384720543777652
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1920 loss train = 6.166560068386258
+logged it=1920 train_loss=6.060081296632407
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1921 loss train = 6.098506747092744
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1922 loss train = 5.917347333807465
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1923 loss train = 5.396254023438692
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1924 loss train = 5.308023767750548
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1925 loss train = 5.267747020457825
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1926 loss train = 6.204623679966271
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1927 loss train = 5.9164819932064
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1928 loss train = 5.7218971504905385
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1929 loss train = 5.487893827443241
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1930 loss train = 5.553498013165709
+logged it=1930 train_loss=6.058149410928
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1931 loss train = 5.200718310114468
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1932 loss train = 6.106422445970905
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1933 loss train = 5.634961188352932
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1934 loss train = 5.940753703226869
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1935 loss train = 5.441560989568203
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1936 loss train = 5.322324657807556
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1937 loss train = 5.272490995385543
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1938 loss train = 4.886553126900155
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1939 loss train = 5.138271657720729
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1940 loss train = 5.587434902573556
+logged it=1940 train_loss=6.0550308531281765
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1941 loss train = 5.651171927876858
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1942 loss train = 5.391492014395352
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1943 loss train = 5.886011380389818
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1944 loss train = 5.084992223730456
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1945 loss train = 5.414098140376019
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1946 loss train = 4.876727487167439
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1947 loss train = 5.520618807029505
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1948 loss train = 5.339642327587623
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1949 loss train = 5.086162269963914
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1950 loss train = 4.6903947419797
+logged it=1950 train_loss=6.051128803276492
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1951 loss train = 5.0712177363584745
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1952 loss train = 5.508255071972345
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1953 loss train = 4.456447865669544
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1954 loss train = 4.613440651097301
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1955 loss train = 4.776266511243222
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1956 loss train = 5.031031371359547
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1957 loss train = 4.8761558751599985
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1958 loss train = 4.5875497782542904
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1959 loss train = 4.723308898232395
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1960 loss train = 4.461942383229002
+logged it=1960 train_loss=6.044799378842722
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1961 loss train = 4.892254125658535
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1962 loss train = 4.124141627126311
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1963 loss train = 4.389287268921552
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1964 loss train = 4.891570102654796
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1965 loss train = 4.322331684808067
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1966 loss train = 4.970669411935581
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1967 loss train = 4.926633701947044
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1968 loss train = 4.8169008035964485
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1969 loss train = 4.944205683754114
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1970 loss train = 4.596132853937174
+logged it=1970 train_loss=6.037909091267044
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1971 loss train = 4.631041897258464
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1972 loss train = 4.614244496462303
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1973 loss train = 5.003923383553177
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1974 loss train = 4.4864671038564845
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1975 loss train = 4.752031140099171
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1976 loss train = 5.0893859939411294
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1977 loss train = 4.655792114265089
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1978 loss train = 4.604470436707015
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1979 loss train = 5.109663096130353
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1980 loss train = 4.854517131528346
+logged it=1980 train_loss=6.0315567912070085
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1981 loss train = 4.702036333535706
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1982 loss train = 4.824218908910068
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1983 loss train = 4.7446007290861525
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1984 loss train = 5.0895443974805445
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1985 loss train = 4.413968415014227
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1986 loss train = 4.542287721310688
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1987 loss train = 4.6328450760782385
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1988 loss train = 4.572450005093622
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1989 loss train = 4.810546497180872
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1990 loss train = 4.49482113774505
+logged it=1990 train_loss=6.024778776789604
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1991 loss train = 4.893212332881132
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1992 loss train = 4.96543502187756
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1993 loss train = 5.322824655896208
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1994 loss train = 4.427905453777741
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1995 loss train = 4.552596072875438
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1996 loss train = 4.757977261811342
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1997 loss train = 4.545406232404825
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1998 loss train = 4.373919692547048
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 1999 loss train = 4.524902765094179
+[34;1mSampling 64 hypotheses.[0m
+epoch 0 iteration 2000 loss train = 4.200277396966962
+logged it=2000 train_loss=6.017937111348721
+after 0 epoch train loss: 12035.874222697443
+========================test=====================
+running test loss 5.547259020805359
+running test loss 5.204208493232727
+running test loss 5.020044112205506
+running test loss 5.127527749538421
+running test loss 5.3685382276773455
+running test loss 5.4800936982035635
+running test loss 5.7799228638410565
+running test loss 6.000305953994394
+running test loss 6.134071762363116
+running test loss 6.192377690374851
+running test loss 6.379177591204643
+running test loss 6.516874268899361
+running test loss 6.626088482829241
+running test loss 6.713501093430178
+running test loss 6.795169882178307
+running test loss 6.822341755963862
+running test loss 6.877275406087146
+running test loss 6.873319287598133
+running test loss 6.976875235689314
+running test loss 7.028880704194307
+running test loss 6.93992680041563
+running test loss 6.860932057689537
+running test loss 6.811979373771211
+running test loss 6.697403668488065
+running test loss 6.617703992486
+running test loss 6.607056237757206
+running test loss 6.598207907875379
+running test loss 6.626866146177053
+running test loss 6.692534597680487
+running test loss 6.713307445545992
+running test loss 6.72716163790995
+running test loss 6.645083920378238
+running test loss 6.644605629100944
+running test loss 6.578339657099808
+running test loss 6.5551625828232085
+running test loss 6.511184149069918
+running test loss 6.437751224637031
+running test loss 6.389507493925722
+running test loss 6.331359138473486
+running test loss 6.253904552385211
+running test loss 6.180330494773097
+running test loss 6.117173657034125
+running test loss 6.08938923859319
+running test loss 6.040037863972512
+running test loss 5.99178459280067
+running test loss 5.926351212483385
+running test loss 5.87810822807728
+running test loss 5.85303989207993
+running test loss 5.819366931002968
+running test loss 5.792981286346913
+running test loss 5.7740547178422705
+running test loss 5.745441500326762
+running test loss 5.72054568174875
+running test loss 5.720735267632538
+running test loss 5.731478701775724
+running test loss 5.721256787276694
+running test loss 5.745164389202469
+running test loss 5.759810728708218
+running test loss 5.773227798181065
+running test loss 5.812170877307653
+running test loss 5.854908735097432
+running test loss 5.889716557773852
+running test loss 5.914139176786892
+running test loss 5.940356585243717
+running test loss 5.945876904129982
+running test loss 5.956525893509388
+running test loss 5.975667044876227
+running test loss 5.997363010092693
+running test loss 6.011499361240346
+running test loss 6.021347378279482
+running test loss 6.009086666770385
+running test loss 6.0049889145212045
+running test loss 6.025128867650685
+running test loss 6.042715817166341
+running test loss 6.042777671933174

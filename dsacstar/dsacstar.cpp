@@ -250,7 +250,7 @@ double dsacstar_rgb_backward(
 		dsacstar::createSampling(imW, imH, subSampling, 0, 0);
 
 	// sample RANSAC hypotheses
-	// std::cout << BLUETEXT("Sampling " << ransacHypotheses << " hypotheses.") << std::endl;
+	std::cout << BLUETEXT("Sampling " << ransacHypotheses << " hypotheses.") << std::endl;
 	StopWatch stopW;
 
 	std::vector<dsacstar::pose_t> initHyps;
