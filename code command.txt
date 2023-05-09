@@ -1,5 +1,0 @@
-srun --time=7-0 --gres=gpu:1 --partition=mundus --pty python dsacstar_training_with_homography.py 7-Scenes fire --iterations 10000 > without_init.out 2>without_init.error &
-
-
-
-srun --time=7-0 --gres=gpu:1 --partition=mundus --pty python dsacstar_training_with_homography.py 7-Scenes fire --network_in fire_init.net --iterations 10000 > with_init.out 2>with_init.error &
