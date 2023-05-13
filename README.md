@@ -1,4 +1,4 @@
-# Homography_based_loss_project
+# Homography-based loss project
 - [Introduction](#introduction)
 - [Installation](#installation)
 - [Datasets Setup](#datasets-setup)
