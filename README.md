@@ -29,11 +29,11 @@ Kindly refer to this [(this github repo)](https://github.com/clementinboittiaux/
 
 Here you can find instructions to setup datasets for use with this code.
 ```bash
-cd Datasets
+cd datasets
 ```
 ## Cambridge and 7-Scenes
 
-We provide the script [datasetup.py](datasetup.py) for setting up Cambridge and 7-Scenes datasets. The script can be
+We provide the script [datasetup.py](datasets/datasetup.py) for setting up Cambridge and 7-Scenes datasets. The script can be
 called with either the name of the dataset to setup, *e.g.*, `7-Scenes`, or the name of a specific scene, *e.g.*,
 `KingsCollege`. For example, if you want to setup the whole Cambridge dataset:
 ```shell
