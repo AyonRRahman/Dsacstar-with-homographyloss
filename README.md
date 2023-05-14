@@ -16,7 +16,7 @@ The DSAC is implemented in C++ and this code changes the loss function for DSAC 
 The repository contains an environment.yml that you can easily install the conda enviroment:
 ```bash
 conda env create -f environment.yml
-conda activate homographyloss
+conda activate dsacstar_with_homography
 ```
 You compile and install the C++ extension for DSAC\* by executing:
 ```bash
