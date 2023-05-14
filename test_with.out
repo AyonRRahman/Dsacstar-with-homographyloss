@@ -1,0 +1,1685 @@
+Loading seq-01
+Loading seq-02
+Loading seq-03
+Loading seq-04
+Sorting depths, this may take a while...
+testing for epoch 0
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 4.7%
+2cm2deg: 0.0%
+1cm1deg: 0.0%
+
+Median Error: 1.7deg, 8.3cm
+Avg. processing time: 51.7ms
+testing for epoch 2
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 64.2%
+2cm2deg: 12.6%
+1cm1deg: 1.5%
+
+Median Error: 1.9deg, 4.0cm
+Avg. processing time: 51.7ms
+testing for epoch 4
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 70.5%
+2cm2deg: 16.2%
+1cm1deg: 2.1%
+
+Median Error: 1.8deg, 3.5cm
+Avg. processing time: 51.7ms
+testing for epoch 6
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 72.2%
+2cm2deg: 14.4%
+1cm1deg: 1.6%
+
+Median Error: 1.7deg, 3.4cm
+Avg. processing time: 52.1ms
+testing for epoch 8
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 71.8%
+2cm2deg: 12.2%
+1cm1deg: 0.9%
+
+Median Error: 1.7deg, 3.4cm
+Avg. processing time: 51.9ms
+testing for epoch 10
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 71.0%
+2cm2deg: 12.0%
+1cm1deg: 0.8%
+
+Median Error: 1.8deg, 3.5cm
+Avg. processing time: 51.5ms
+testing for epoch 12
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 71.4%
+2cm2deg: 11.7%
+1cm1deg: 0.9%
+
+Median Error: 1.8deg, 3.5cm
+Avg. processing time: 51.8ms
+testing for epoch 14
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 70.1%
+2cm2deg: 11.1%
+1cm1deg: 0.9%
+
+Median Error: 1.8deg, 3.7cm
+Avg. processing time: 51.7ms
+testing for epoch 16
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 70.2%
+2cm2deg: 10.8%
+1cm1deg: 0.9%
+
+Median Error: 1.8deg, 3.7cm
+Avg. processing time: 51.6ms
+testing for epoch 18
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 70.0%
+2cm2deg: 11.0%
+1cm1deg: 0.9%
+
+Median Error: 1.9deg, 3.7cm
+Avg. processing time: 51.6ms
+testing for epoch 20
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 70.1%
+2cm2deg: 10.3%
+1cm1deg: 0.7%
+
+Median Error: 1.9deg, 3.8cm
+Avg. processing time: 51.6ms
+testing for epoch 22
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 70.1%
+2cm2deg: 10.9%
+1cm1deg: 0.9%
+
+Median Error: 1.9deg, 3.8cm
+Avg. processing time: 51.7ms
+testing for epoch 24
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 70.0%
+2cm2deg: 10.5%
+1cm1deg: 0.9%
+
+Median Error: 1.9deg, 3.9cm
+Avg. processing time: 51.4ms
+testing for epoch 26
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 69.3%
+2cm2deg: 11.5%
+1cm1deg: 0.9%
+
+Median Error: 1.9deg, 3.9cm
+Avg. processing time: 51.7ms
+testing for epoch 28
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 70.5%
+2cm2deg: 11.2%
+1cm1deg: 1.1%
+
+Median Error: 1.8deg, 3.8cm
+Avg. processing time: 51.4ms
+testing for epoch 30
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 69.7%
+2cm2deg: 10.8%
+1cm1deg: 0.9%
+
+Median Error: 1.9deg, 3.8cm
+Avg. processing time: 51.6ms
+testing for epoch 32
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 71.0%
+2cm2deg: 10.5%
+1cm1deg: 1.2%
+
+Median Error: 1.8deg, 3.8cm
+Avg. processing time: 51.6ms
+testing for epoch 34
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 70.0%
+2cm2deg: 11.5%
+1cm1deg: 1.4%
+
+Median Error: 1.8deg, 3.9cm
+Avg. processing time: 51.5ms
+testing for epoch 36
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 69.8%
+2cm2deg: 10.7%
+1cm1deg: 1.4%
+
+Median Error: 1.9deg, 3.8cm
+Avg. processing time: 51.7ms
+testing for epoch 38
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 70.5%
+2cm2deg: 10.8%
+1cm1deg: 1.4%
+
+Median Error: 1.9deg, 3.8cm
+Avg. processing time: 51.8ms
+testing for epoch 40
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 70.0%
+2cm2deg: 10.9%
+1cm1deg: 1.8%
+
+Median Error: 1.9deg, 3.8cm
+Avg. processing time: 51.8ms
+testing for epoch 42
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 69.4%
+2cm2deg: 10.7%
+1cm1deg: 1.8%
+
+Median Error: 1.9deg, 3.8cm
+Avg. processing time: 51.5ms
+testing for epoch 44
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 69.8%
+2cm2deg: 11.5%
+1cm1deg: 1.7%
+
+Median Error: 1.9deg, 3.7cm
+Avg. processing time: 51.7ms
+testing for epoch 46
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 69.8%
+2cm2deg: 11.5%
+1cm1deg: 1.5%
+
+Median Error: 1.9deg, 3.8cm
+Avg. processing time: 51.9ms
+testing for epoch 48
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 71.0%
+2cm2deg: 12.3%
+1cm1deg: 1.8%
+
+Median Error: 1.8deg, 3.6cm
+Avg. processing time: 51.8ms
+testing for epoch 50
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 69.8%
+2cm2deg: 12.7%
+1cm1deg: 1.6%
+
+Median Error: 1.8deg, 3.7cm
+Avg. processing time: 51.8ms
+testing for epoch 52
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 69.3%
+2cm2deg: 13.1%
+1cm1deg: 1.8%
+
+Median Error: 1.9deg, 3.6cm
+Avg. processing time: 51.8ms
+testing for epoch 54
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 68.7%
+2cm2deg: 12.4%
+1cm1deg: 1.9%
+
+Median Error: 1.9deg, 3.7cm
+Avg. processing time: 52.0ms
+testing for epoch 56
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 68.5%
+2cm2deg: 13.0%
+1cm1deg: 1.8%
+
+Median Error: 1.8deg, 3.6cm
+Avg. processing time: 51.9ms
+testing for epoch 58
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 69.8%
+2cm2deg: 13.8%
+1cm1deg: 1.8%
+
+Median Error: 1.8deg, 3.7cm
+Avg. processing time: 52.0ms
+testing for epoch 60
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 69.9%
+2cm2deg: 14.4%
+1cm1deg: 1.8%
+
+Median Error: 1.8deg, 3.6cm
+Avg. processing time: 51.9ms
+testing for epoch 62
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 69.5%
+2cm2deg: 13.7%
+1cm1deg: 1.9%
+
+Median Error: 1.8deg, 3.7cm
+Avg. processing time: 52.0ms
+testing for epoch 64
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 69.0%
+2cm2deg: 14.6%
+1cm1deg: 1.8%
+
+Median Error: 1.8deg, 3.6cm
+Avg. processing time: 52.0ms
+testing for epoch 66
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 69.8%
+2cm2deg: 14.5%
+1cm1deg: 1.9%
+
+Median Error: 1.8deg, 3.6cm
+Avg. processing time: 51.9ms
+testing for epoch 68
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 69.8%
+2cm2deg: 14.9%
+1cm1deg: 1.9%
+
+Median Error: 1.9deg, 3.6cm
+Avg. processing time: 52.1ms
+testing for epoch 70
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 68.0%
+2cm2deg: 14.3%
+1cm1deg: 2.3%
+
+Median Error: 1.9deg, 3.6cm
+Avg. processing time: 52.1ms
+testing for epoch 72
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 68.7%
+2cm2deg: 14.9%
+1cm1deg: 2.2%
+
+Median Error: 1.9deg, 3.6cm
+Avg. processing time: 52.2ms
+testing for epoch 74
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 68.8%
+2cm2deg: 15.2%
+1cm1deg: 2.5%
+
+Median Error: 1.9deg, 3.6cm
+Avg. processing time: 52.1ms
+testing for epoch 76
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 68.3%
+2cm2deg: 15.8%
+1cm1deg: 2.1%
+
+Median Error: 1.9deg, 3.6cm
+Avg. processing time: 52.2ms
+testing for epoch 78
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 68.3%
+2cm2deg: 15.8%
+1cm1deg: 2.5%
+
+Median Error: 1.9deg, 3.6cm
+Avg. processing time: 52.1ms
+testing for epoch 80
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 67.2%
+2cm2deg: 15.6%
+1cm1deg: 2.1%
+
+Median Error: 1.9deg, 3.5cm
+Avg. processing time: 52.2ms
+testing for epoch 82
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 67.9%
+2cm2deg: 16.2%
+1cm1deg: 2.2%
+
+Median Error: 1.9deg, 3.5cm
+Avg. processing time: 52.1ms
+testing for epoch 84
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 68.3%
+2cm2deg: 15.8%
+1cm1deg: 1.9%
+
+Median Error: 1.9deg, 3.6cm
+Avg. processing time: 52.5ms
+testing for epoch 86
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 68.8%
+2cm2deg: 16.2%
+1cm1deg: 2.3%
+
+Median Error: 1.9deg, 3.5cm
+Avg. processing time: 52.4ms
+testing for epoch 88
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 67.8%
+2cm2deg: 16.2%
+1cm1deg: 1.8%
+
+Median Error: 1.9deg, 3.6cm
+Avg. processing time: 52.7ms
+testing for epoch 90
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 68.2%
+2cm2deg: 16.0%
+1cm1deg: 1.8%
+
+Median Error: 1.9deg, 3.6cm
+Avg. processing time: 52.4ms
+testing for epoch 92
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 68.0%
+2cm2deg: 16.2%
+1cm1deg: 2.1%
+
+Median Error: 1.9deg, 3.6cm
+Avg. processing time: 52.4ms
+testing for epoch 94
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 67.2%
+2cm2deg: 16.2%
+1cm1deg: 2.2%
+
+Median Error: 1.9deg, 3.6cm
+Avg. processing time: 52.5ms
+testing for epoch 96
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 67.7%
+2cm2deg: 16.7%
+1cm1deg: 2.2%
+
+Median Error: 1.9deg, 3.6cm
+Avg. processing time: 52.4ms
+testing for epoch 98
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 67.9%
+2cm2deg: 16.2%
+1cm1deg: 2.1%
+
+Median Error: 1.9deg, 3.6cm
+Avg. processing time: 52.6ms
+testing for epoch 100
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 67.2%
+2cm2deg: 16.4%
+1cm1deg: 2.1%
+
+Median Error: 1.9deg, 3.5cm
+Avg. processing time: 52.5ms
+testing for epoch 102
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 66.8%
+2cm2deg: 16.4%
+1cm1deg: 2.8%
+
+Median Error: 1.9deg, 3.6cm
+Avg. processing time: 52.3ms
+testing for epoch 104
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 66.3%
+2cm2deg: 15.9%
+1cm1deg: 2.0%
+
+Median Error: 2.0deg, 3.6cm
+Avg. processing time: 52.5ms
+testing for epoch 106
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 67.9%
+2cm2deg: 16.0%
+1cm1deg: 2.4%
+
+Median Error: 1.9deg, 3.5cm
+Avg. processing time: 52.5ms
+testing for epoch 108
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 65.8%
+2cm2deg: 15.9%
+1cm1deg: 2.2%
+
+Median Error: 2.0deg, 3.6cm
+Avg. processing time: 52.5ms
+testing for epoch 110
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 65.8%
+2cm2deg: 15.6%
+1cm1deg: 2.1%
+
+Median Error: 1.9deg, 3.5cm
+Avg. processing time: 52.6ms
+testing for epoch 112
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 67.0%
+2cm2deg: 16.4%
+1cm1deg: 2.5%
+
+Median Error: 1.9deg, 3.6cm
+Avg. processing time: 52.5ms
+testing for epoch 114
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 65.4%
+2cm2deg: 16.1%
+1cm1deg: 2.6%
+
+Median Error: 1.9deg, 3.6cm
+Avg. processing time: 52.8ms
+testing for epoch 116
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 64.7%
+2cm2deg: 15.2%
+1cm1deg: 2.8%
+
+Median Error: 1.9deg, 3.6cm
+Avg. processing time: 52.6ms
+testing for epoch 118
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 65.5%
+2cm2deg: 15.9%
+1cm1deg: 2.2%
+
+Median Error: 1.9deg, 3.6cm
+Avg. processing time: 52.8ms
+testing for epoch 120
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 66.8%
+2cm2deg: 16.1%
+1cm1deg: 2.6%
+
+Median Error: 1.9deg, 3.5cm
+Avg. processing time: 52.6ms
+testing for epoch 122
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 66.0%
+2cm2deg: 16.0%
+1cm1deg: 2.4%
+
+Median Error: 1.9deg, 3.6cm
+Avg. processing time: 52.7ms
+testing for epoch 124
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 65.2%
+2cm2deg: 15.8%
+1cm1deg: 2.2%
+
+Median Error: 2.0deg, 3.6cm
+Avg. processing time: 52.7ms
+testing for epoch 126
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 65.8%
+2cm2deg: 15.3%
+1cm1deg: 2.6%
+
+Median Error: 1.9deg, 3.5cm
+Avg. processing time: 52.6ms
+testing for epoch 128
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 66.0%
+2cm2deg: 16.8%
+1cm1deg: 2.2%
+
+Median Error: 1.9deg, 3.5cm
+Avg. processing time: 52.6ms
+testing for epoch 130
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 65.6%
+2cm2deg: 16.1%
+1cm1deg: 2.5%
+
+Median Error: 1.9deg, 3.6cm
+Avg. processing time: 52.7ms
+testing for epoch 132
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 64.8%
+2cm2deg: 16.1%
+1cm1deg: 2.9%
+
+Median Error: 1.9deg, 3.5cm
+Avg. processing time: 52.9ms
+testing for epoch 134
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 65.3%
+2cm2deg: 16.2%
+1cm1deg: 2.7%
+
+Median Error: 2.0deg, 3.5cm
+Avg. processing time: 52.6ms
+testing for epoch 136
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 64.8%
+2cm2deg: 15.8%
+1cm1deg: 2.5%
+
+Median Error: 2.0deg, 3.5cm
+Avg. processing time: 52.7ms
+testing for epoch 138
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 63.8%
+2cm2deg: 16.0%
+1cm1deg: 2.2%
+
+Median Error: 2.0deg, 3.6cm
+Avg. processing time: 52.8ms
+testing for epoch 140
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 64.3%
+2cm2deg: 16.0%
+1cm1deg: 2.5%
+
+Median Error: 2.0deg, 3.5cm
+Avg. processing time: 52.7ms
+testing for epoch 142
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 64.0%
+2cm2deg: 14.9%
+1cm1deg: 2.8%
+
+Median Error: 2.0deg, 3.6cm
+Avg. processing time: 52.8ms
+testing for epoch 144
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 64.3%
+2cm2deg: 15.8%
+1cm1deg: 2.6%
+
+Median Error: 2.0deg, 3.6cm
+Avg. processing time: 52.7ms
+testing for epoch 146
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 63.7%
+2cm2deg: 16.1%
+1cm1deg: 2.7%
+
+Median Error: 2.0deg, 3.6cm
+Avg. processing time: 52.8ms
+testing for epoch 148
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 64.6%
+2cm2deg: 16.6%
+1cm1deg: 2.4%
+
+Median Error: 2.0deg, 3.5cm
+Avg. processing time: 52.7ms
+testing for epoch 150
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 64.0%
+2cm2deg: 16.0%
+1cm1deg: 2.5%
+
+Median Error: 2.0deg, 3.5cm
+Avg. processing time: 52.7ms
+testing for epoch 152
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 63.6%
+2cm2deg: 16.3%
+1cm1deg: 2.4%
+
+Median Error: 1.9deg, 3.6cm
+Avg. processing time: 52.7ms
+testing for epoch 154
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 65.0%
+2cm2deg: 16.7%
+1cm1deg: 2.8%
+
+Median Error: 2.0deg, 3.5cm
+Avg. processing time: 52.8ms
+testing for epoch 156
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 63.1%
+2cm2deg: 15.3%
+1cm1deg: 2.6%
+
+Median Error: 2.0deg, 3.6cm
+Avg. processing time: 52.6ms
+testing for epoch 158
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 63.4%
+2cm2deg: 16.2%
+1cm1deg: 2.5%
+
+Median Error: 2.0deg, 3.6cm
+Avg. processing time: 52.9ms
+testing for epoch 160
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 63.6%
+2cm2deg: 16.1%
+1cm1deg: 2.9%
+
+Median Error: 2.0deg, 3.6cm
+Avg. processing time: 52.8ms
+testing for epoch 162
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 63.1%
+2cm2deg: 16.4%
+1cm1deg: 2.7%
+
+Median Error: 2.0deg, 3.6cm
+Avg. processing time: 52.9ms
+testing for epoch 164
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 63.3%
+2cm2deg: 16.5%
+1cm1deg: 2.5%
+
+Median Error: 2.0deg, 3.6cm
+Avg. processing time: 52.9ms
+testing for epoch 166
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 62.3%
+2cm2deg: 16.5%
+1cm1deg: 2.6%
+
+Median Error: 2.0deg, 3.6cm
+Avg. processing time: 52.7ms
+testing for epoch 168
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 64.0%
+2cm2deg: 16.1%
+1cm1deg: 2.9%
+
+Median Error: 2.0deg, 3.6cm
+Avg. processing time: 52.8ms
+testing for epoch 170
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 64.2%
+2cm2deg: 16.8%
+1cm1deg: 2.9%
+
+Median Error: 2.0deg, 3.5cm
+Avg. processing time: 53.0ms
+testing for epoch 172
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 63.3%
+2cm2deg: 16.1%
+1cm1deg: 2.5%
+
+Median Error: 2.0deg, 3.6cm
+Avg. processing time: 52.7ms
+testing for epoch 174
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 62.9%
+2cm2deg: 17.1%
+1cm1deg: 2.5%
+
+Median Error: 2.0deg, 3.6cm
+Avg. processing time: 52.8ms
+testing for epoch 176
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 62.0%
+2cm2deg: 16.0%
+1cm1deg: 2.8%
+
+Median Error: 2.0deg, 3.6cm
+Avg. processing time: 52.9ms
+testing for epoch 178
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 63.2%
+2cm2deg: 15.8%
+1cm1deg: 2.8%
+
+Median Error: 2.0deg, 3.7cm
+Avg. processing time: 52.9ms
+testing for epoch 180
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 63.4%
+2cm2deg: 15.8%
+1cm1deg: 2.2%
+
+Median Error: 1.9deg, 3.7cm
+Avg. processing time: 52.8ms
+testing for epoch 182
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 63.1%
+2cm2deg: 16.2%
+1cm1deg: 2.4%
+
+Median Error: 2.0deg, 3.7cm
+Avg. processing time: 52.9ms
+testing for epoch 184
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 62.4%
+2cm2deg: 16.7%
+1cm1deg: 2.5%
+
+Median Error: 2.0deg, 3.7cm
+Avg. processing time: 52.8ms
+testing for epoch 186
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 62.2%
+2cm2deg: 16.6%
+1cm1deg: 2.8%
+
+Median Error: 2.0deg, 3.7cm
+Avg. processing time: 53.0ms
+testing for epoch 188
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 62.3%
+2cm2deg: 16.5%
+1cm1deg: 2.1%
+
+Median Error: 2.0deg, 3.6cm
+Avg. processing time: 53.0ms
+testing for epoch 190
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 63.8%
+2cm2deg: 16.0%
+1cm1deg: 2.4%
+
+Median Error: 2.0deg, 3.6cm
+Avg. processing time: 52.8ms
+testing for epoch 192
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 62.8%
+2cm2deg: 17.1%
+1cm1deg: 2.5%
+
+Median Error: 2.0deg, 3.6cm
+Avg. processing time: 53.1ms
+testing for epoch 194
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 62.6%
+2cm2deg: 15.8%
+1cm1deg: 2.6%
+
+Median Error: 2.0deg, 3.7cm
+Avg. processing time: 52.8ms
+testing for epoch 196
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 63.7%
+2cm2deg: 17.2%
+1cm1deg: 2.8%
+
+Median Error: 2.0deg, 3.6cm
+Avg. processing time: 52.8ms
+testing for epoch 198
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 62.5%
+2cm2deg: 16.2%
+1cm1deg: 2.6%
+
+Median Error: 2.0deg, 3.7cm
+Avg. processing time: 53.1ms
+testing for epoch 200
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 62.5%
+2cm2deg: 16.9%
+1cm1deg: 2.5%
+
+Median Error: 2.0deg, 3.6cm
+Avg. processing time: 53.0ms
+testing for epoch 202
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 62.3%
+2cm2deg: 16.0%
+1cm1deg: 2.9%
+
+Median Error: 2.0deg, 3.7cm
+Avg. processing time: 53.2ms
+testing for epoch 204
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 62.7%
+2cm2deg: 17.2%
+1cm1deg: 2.7%
+
+Median Error: 2.0deg, 3.6cm
+Avg. processing time: 52.8ms
+testing for epoch 206
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 62.4%
+2cm2deg: 16.2%
+1cm1deg: 3.0%
+
+Median Error: 2.0deg, 3.8cm
+Avg. processing time: 52.9ms
+testing for epoch 208
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 62.4%
+2cm2deg: 16.2%
+1cm1deg: 2.5%
+
+Median Error: 2.0deg, 3.6cm
+Avg. processing time: 53.0ms
+testing for epoch 210
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 62.4%
+2cm2deg: 17.2%
+1cm1deg: 2.5%
+
+Median Error: 2.0deg, 3.6cm
+Avg. processing time: 52.9ms
+testing for epoch 212
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 62.8%
+2cm2deg: 17.1%
+1cm1deg: 2.8%
+
+Median Error: 2.0deg, 3.6cm
+Avg. processing time: 52.9ms
+testing for epoch 214
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 61.5%
+2cm2deg: 16.4%
+1cm1deg: 2.5%
+
+Median Error: 2.0deg, 3.7cm
+Avg. processing time: 53.1ms
+testing for epoch 216
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 61.9%
+2cm2deg: 17.0%
+1cm1deg: 2.5%
+
+Median Error: 2.0deg, 3.6cm
+Avg. processing time: 53.0ms
+testing for epoch 218
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 62.5%
+2cm2deg: 15.8%
+1cm1deg: 2.5%
+
+Median Error: 2.0deg, 3.7cm
+Avg. processing time: 52.9ms
+testing for epoch 220
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 62.5%
+2cm2deg: 16.6%
+1cm1deg: 2.2%
+
+Median Error: 2.0deg, 3.7cm
+Avg. processing time: 52.9ms
+testing for epoch 222
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 62.8%
+2cm2deg: 17.4%
+1cm1deg: 2.8%
+
+Median Error: 2.0deg, 3.7cm
+Avg. processing time: 53.0ms
+testing for epoch 224
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 63.3%
+2cm2deg: 16.8%
+1cm1deg: 2.5%
+
+Median Error: 2.0deg, 3.6cm
+Avg. processing time: 53.1ms
+testing for epoch 226
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 62.3%
+2cm2deg: 16.2%
+1cm1deg: 2.4%
+
+Median Error: 2.0deg, 3.7cm
+Avg. processing time: 53.2ms
+testing for epoch 228
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 62.8%
+2cm2deg: 17.3%
+1cm1deg: 2.3%
+
+Median Error: 2.0deg, 3.7cm
+Avg. processing time: 53.2ms
+testing for epoch 230
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 62.6%
+2cm2deg: 17.2%
+1cm1deg: 2.5%
+
+Median Error: 2.1deg, 3.7cm
+Avg. processing time: 53.2ms
+testing for epoch 232
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 62.5%
+2cm2deg: 16.6%
+1cm1deg: 2.4%
+
+Median Error: 2.0deg, 3.6cm
+Avg. processing time: 53.2ms
+testing for epoch 234
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 62.8%
+2cm2deg: 17.2%
+1cm1deg: 2.6%
+
+Median Error: 2.0deg, 3.6cm
+Avg. processing time: 52.9ms
+testing for epoch 236
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 62.2%
+2cm2deg: 17.2%
+1cm1deg: 2.7%
+
+Median Error: 2.0deg, 3.6cm
+Avg. processing time: 52.9ms
+testing for epoch 238
+
+===================================================
+
+Test complete.
+
+Accuracy:
+
+5cm5deg: 61.7%
+2cm2deg: 17.2%
+1cm1deg: 2.9%
+
+Median Error: 2.0deg, 3.7cm
+Avg. processing time: 53.3ms

@@ -28,6 +28,7 @@ parser.add_argument('scene_name', help='name of the scene. e.g chess, fire, Shop
 
 parser.add_argument('--xmin_percentile', help='xmin depth percentile', type=float, default=0.025)
 parser.add_argument('--xmax_percentile', help='xmax depth percentile', type=float, default=0.975)
+
 parser.add_argument('--hypotheses','-hyps', help='number of hypotheses', type=int, default=64)
 
 parser.add_argument('--network_in', help='file name of a network initialized for the scene', type=str, default='None')
@@ -135,36 +136,62 @@ if opt.network_in!='None':
     with_init=True
 network = network.cuda()
 network.train()
-
-
 optimizer = torch.optim.Adam(network.parameters(),lr=opt.learningrate)
+
+
 iteration = opt.iterations
 
-
+load_saved=False
+epoch_loaded = 0
 if with_init:
-    writer_folder = 'with_init'
     checkpoint_folder = f'our_checkpoints/{opt.dataset_name}/{opt.scene_name}_with_init'
+    if os.path.isdir(checkpoint_folder):
+        load_saved=True
+        list_of_saved_model = os.listdir(checkpoint_folder)
+       
+        model_to_load = list_of_saved_model[-1]
+
+        check_point = torch.load(os.path.join(checkpoint_folder, model_to_load))
+        epoch_loaded = int(model_to_load[:-3].split('_')[-1])
+        print(f' Starting training from {epoch_loaded} epoch')
+        
+        network.load_state_dict(check_point['model_state_dict'])
+        optimizer.load_state_dict(check_point['optimizer_state_dict'])
+
     os.makedirs(checkpoint_folder, exist_ok=True)
+    writer_folder = f'with_init/epoch_{str(epoch_loaded)}'
 
 else:
     checkpoint_folder = f"our_checkpoints/{'7-Scenes'}/{'fire'}_without_init"
     if os.path.isdir(checkpoint_folder):
-        checkpoint_folder = checkpoint_folder+'_1'
+        load_saved=True
+        list_of_saved_model = os.listdir(checkpoint_folder)
+        
+        model_to_load = list_of_saved_model[-1]
 
+        check_point = torch.load(os.path.join(checkpoint_folder, model_to_load))
+        
+        epoch_loaded = int(model_to_load[:-3].split('_')[-1])
+        network.load_state_dict(check_point['model_state_dict'])
+        optimizer.load_state_dict(check_point['optimizer_state_dict'])
+        print(f' Starting training from {epoch_loaded} epoch')
     os.makedirs(checkpoint_folder, exist_ok=True)
+    writer_folder = f'without_init/epoch_{str(epoch_loaded)}'
 
-    writer_folder = 'without_init'
     
     
+ 
 writer = SummaryWriter(os.path.join('logs',os.path.basename(os.path.normpath('7-Scenes')),'fire',writer_folder))
 
 
     
 
-def train(network = network,trainset_loader=trainset_loader,testset_laoder=testset_loader,optimizer=optimizer, iteration=iteration, with_init=with_init, writer=writer,checkpoint_folder=checkpoint_folder):
+def train(network = network,trainset_loader=trainset_loader,testset_loader=testset_loader,optimizer=optimizer, iteration=iteration, with_init=with_init, writer=writer,checkpoint_folder=checkpoint_folder, epoch_loaded=epoch_loaded,load_saved=load_saved):
     
     for epoch in range(iteration):
-        
+        if load_saved and epoch<=epoch_loaded:
+            continue
+
         network.train()
         print(f'epoch:{epoch}\n')
         print('========================train=====================')
@@ -215,7 +242,7 @@ def train(network = network,trainset_loader=trainset_loader,testset_laoder=tests
             optimizer.step()
             
             if it%opt.print_every==0 and it!=0:
-                writer.add_scalar('train loss',running_loss/it,epoch*2000+it)
+                writer.add_scalar('train loss',running_loss/it,epoch*len(trainset_loader)+it)
                 print(f'logged it={it} train_loss={running_loss/it}')
         
         writer.add_scalar('per_epoch_training_loss',running_loss,epoch)
@@ -280,7 +307,7 @@ def train(network = network,trainset_loader=trainset_loader,testset_laoder=tests
                 running_test_loss+=loss.item()
                 
                 if it%opt.print_every==0 and it!=0:
-                    writer.add_scalar('test loss',running_loss/it,epoch*2000+it)
+                    writer.add_scalar('test loss',running_loss/it,epoch*len(testset_loader)+it)
                     print(f"running test loss {running_test_loss/it}")
         
         writer.add_scalar('per_epoch_testing_loss',running_loss,epoch)
