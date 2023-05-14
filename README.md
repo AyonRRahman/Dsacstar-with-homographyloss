@@ -82,7 +82,6 @@ frame003.jpg
 ```
 
 ## Training
-The training consists of two parts: Initializing scene coordinate regression, and end-to-end training.The training consists of two parts: Initializing scene coordinate regression, and end-to-end training.
 For training, run the following command
 ```
 python dsacstar_training_with_homography.py <Dataset-Name> <Scene-Name>  --iterations 10000 --network_in <Path to file for initializing the Network>
@@ -90,4 +89,8 @@ python dsacstar_training_with_homography.py <Dataset-Name> <Scene-Name>  --itera
 ## Testing and Results 
 ```
 python Dsacstar_test.py <Dataset-Name> <Scene-Name> --path_to_checkpoints <Path to the folder of Checkpoints> --run <Tensorboard Folder Name>
-
+```
+## Monitor Training & Testing Result
+```
+tensorboard --logdir <Tensorboard Folder Name>
+```
