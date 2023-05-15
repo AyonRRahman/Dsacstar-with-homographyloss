@@ -49,7 +49,8 @@ All possibilities can be accessed by running:
 python datasetup.py -h
 ```
 ## Training
-For training, run the following command
+For initializing the scene we are still using the code from Dsac* git repository. As soon as the code is ready it will be updated here.
+For end to end training, run the following command
 ```
 python dsacstar_training_with_homography.py <Dataset-Name> <Scene-Name>  --iterations 10000 --network_in <Path to file for initializing the Network>
 ```
